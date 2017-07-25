@@ -4,7 +4,6 @@
 # See the file 'docs/LICENSE' for copying permission.
 
 import os
-from lib.cuckoo.api.classification import predict, predict_family
 
 from lib.cuckoo.common.abstracts import Report
 from lib.cuckoo.common.exceptions import CuckooDependencyError
