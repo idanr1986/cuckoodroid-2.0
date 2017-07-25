@@ -1,0 +1,12 @@
+<h4><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> Fingerprints</h4>
+<section id="fingerprint">
+<div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.fingerprint %}
+        <tr>
+            <td><span class="mono" >{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>

@@ -1,0 +1,15 @@
+<h4><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Commands</h4>
+<section id="commands">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.commands %}
+        <tr>
+            <td><span class="mono" >{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>
+
+
+

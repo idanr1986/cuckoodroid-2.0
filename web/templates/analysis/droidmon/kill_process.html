@@ -1,0 +1,12 @@
+<h4><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span> Stopped Processes</h4>
+<section id="kill_process">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.killed_process %}
+        <tr>
+            <td><span class="mono" >{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>

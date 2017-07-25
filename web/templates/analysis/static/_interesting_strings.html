@@ -1,0 +1,36 @@
+<section id="interesting_strings">
+    <div class="well" style="font-family: monospace;">
+        {% if analysis.apkinfo.interesting_strings%}
+        <table class="table table-striped table-bordered">
+
+            {% for url in analysis.apkinfo.interesting_strings.url %}
+               <tr>
+                   <td>URL</td>
+                   <td>
+                       {{ url }}
+                   </td>
+               </tr>
+            {% endfor %}
+
+            {% for ip in analysis.apkinfo.interesting_strings.ip %}
+               <tr>
+                   <td>IP</td>
+                   <td>
+                       {{ ip }}
+                   </td>
+               </tr>
+            {% endfor %}
+
+            {% for package in analysis.apkinfo.interesting_strings.package %}
+               <tr>
+                   <td>Package</td>
+                   <td>
+                       {{ package }}
+                   </td>
+               </tr>
+            {% endfor %}
+
+        </table>
+        {% endif %}
+    </div>
+</section>

@@ -1,0 +1,13 @@
+<h4><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Registered Broadcast Receivers</h4>
+<section id="registered_receivers">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.registered_receivers %}
+        <tr>
+            <td><span class="mono" >{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>
+

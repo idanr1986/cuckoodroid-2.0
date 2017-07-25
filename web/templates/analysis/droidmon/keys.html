@@ -1,0 +1,16 @@
+<h4><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Crypto Keys</h4>
+<section id="keys">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.crypto_keys %}
+        <tr>
+           <tr>
+                <td><span class="mono">{{call.type}}</span></td>
+                <td><span class="mono"><pre>{{call.key}}</pre></span></td>
+            </tr>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>
+

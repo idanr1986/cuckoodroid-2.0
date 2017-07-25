@@ -1,0 +1,13 @@
+<h4><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Accounts</h4>
+</br>
+<section id="accounts">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.accounts %}
+        <tr>
+            <td><span class="mono" >{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>

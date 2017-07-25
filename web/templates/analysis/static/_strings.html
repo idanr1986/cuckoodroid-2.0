@@ -1,0 +1,13 @@
+<section id="static_strings">
+    <div class="well" style="font-family: monospace;">
+        {% if analysis.apkinfo.dex_strings %}
+            {% for string in analysis.apkinfo.dex_strings %}
+                <div>{{string}}</div>
+            {% endfor %}
+        {% else %}
+            {% for string in analysis.strings %}
+                <div>{{string}}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</section>

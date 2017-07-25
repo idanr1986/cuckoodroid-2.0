@@ -1,0 +1,12 @@
+<h4><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> System Properties</h4>
+<section id="SystemProperties">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.SystemProperties %}
+        <tr>
+             <td><span class="mono">{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>

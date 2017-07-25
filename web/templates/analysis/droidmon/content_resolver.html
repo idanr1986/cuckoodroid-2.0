@@ -1,0 +1,12 @@
+<h4><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Content Queries</h4>
+<section id="content_resolver">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.ContentResolver_queries %}
+        <tr>
+            <td><span class="mono" >{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>

@@ -1,0 +1,12 @@
+<h4><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Files Accessed</h4>
+<section id="file_accessed">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.file_accessed %}
+        <tr>
+            <td><span class="mono" >{{call}}</span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>

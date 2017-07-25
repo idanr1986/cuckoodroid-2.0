@@ -1,0 +1,1 @@
+SECRET_KEY = "gyrdyjfra8q-&+^5!+%129hcn))wat1_886iu(udb$_s%(z!n@"

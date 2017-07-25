@@ -1,0 +1,1297 @@
+{
+    "4578": [
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4578, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4578, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }
+    ], 
+    "4580": [
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml.bak'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4580, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/shared_prefs/main_prefs.xml", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4580, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }
+    ], 
+    "4966": [
+        {
+            "this": "", 
+            "args": [
+                "server_disconected", 
+                "1"
+            ], 
+            "method": "putInt", 
+            "thread_id": 4966, 
+            "result": "{u'mModified': {u'server_disconected': 1}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }
+    ], 
+    "4492": [
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/cache'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4492, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getBaseContext", 
+            "thread_id": 4492, 
+            "result": "android.app.ContextImpl@21833500", 
+            "type": "reflection", 
+            "class": "com.dniwiht.omaovia.psederpd"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "true"
+            ], 
+            "method": "setAccessible", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": "java.lang.reflect.Field"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/app_svgud'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4492, 
+            "result": "false", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "svgud", 
+                "0"
+            ], 
+            "method": "getDir", 
+            "thread_id": 4492, 
+            "result": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/app_svgud'}", 
+            "type": "reflection", 
+            "class": "android.app.ContextImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getAbsolutePath", 
+            "thread_id": 4492, 
+            "result": "/data/data/com.ylzkwckr.gnrowriq/app_svgud", 
+            "type": "reflection", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getAssets", 
+            "thread_id": 4492, 
+            "result": "{u'mNObject': 0, u'mStringBlocks': [{u'mOwnsNative': False, u'mNative': 1933676844, u'mUseSparse': True, u'mSparseStrings': {u'mKeys': [482, 483, 484, 485, 486, 487, 488, 489, 490, 494, 496, 497, 499, 500, 501, 502, 503, 506, 507, 508, 509, 510, 546, 547, 551, 552, 554, 555, 558, 559, 573, 574, 577, 578, 586, 587, 589, 590, 591, 592, 593, 610, 620, 621, 627, 628, 652, 653, 655, 656, 659, 660, 678, 679, 680, 682, 685, 688, 691, 692, 693, 694, 695, 696, 697, 698, 714, 715, 717, 718, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 760, 764, 765, 766, 767, 1185, 1198, 1262, 1268, 1270, 1271, 1272, 1287, 1288, 1289, 1290, 1292, 1293, 1294, 1295, 1296, 1299, 1300, 1301, 1302, 1303, 1304, 1315, 1316, 1317, 1318, 1319, 1320, 1322, 1323, 1327, 1328, 1336, 1337, 1338, 1339, 1340, 1341, 1343, 1344, 1346, 1347, 1361, 1362, 1364, 1365, 1367, 1368, 1373, 1374, 1377, 1378, 1451, 1452, 1453, 1454, 1455, 1456, 1458, 1459, 1461, 1462, 1465, 1466, 1467, 1468, 1469, 1470, 1472, 1473, 1475, 1476, 1524, 1525, 1526, 1527, 1528, 1529, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1553, 1554, 1556, 1557, 1558, 1559, 1560, 1561, 1562, 1563, 1564, 1565, 1578, 1579, 1580, 1581, 1600, 1601, 1605, 1606, 1614, 1615, 1616, 1617, 1655, 1673, 1674, 1677, 1678, 1679, 1680, 1681, 1682, 1683, 1684, 1685, 1686, 1687, 1688, 1730, 1731, 1733, 1734, 1745, 1746, 1757, 1810, 1811, 1813, 1814, 1831, 1832, 1835, 1836, 1841, 1842, 1862, 1869, 1934, 1935, 1937, 1939, 1940, 1941, 1942, 1943, 1944, 1965, 1966, 1977, 1978, 1979, 1980, 1981, 1982, 1984, 2015, 2016, 2080, 2081, 2082, 2083, 2084, 2085, 2089, 2090, 2091, 2092, 2093, 2094, 2095, 2096, 2105, 2106, 2107, 2108, 2109, 2110, 2141, 2142, 2149, 2150, 2151, 2152, 2160, 2161, 2164, 2165, 2166, 2167, 2168, 2169, 2170, 2171, 2172, 2173, 2174, 2175, 2180, 2181, 2182, 2183, 2186, 2187, 2190, 2191, 2330, 2331, 2332, 2335, 2336, 2337, 2339, 2342, 2344, 2345, 2346, 2353, 2354, 2356, 2357, 2358, 2359, 2361, 2362, 2364, 2365, 2366, 2367, 2368, 2369, 2370, 2371, 2372, 2373, 2376, 2377, 2382, 2383, 2384, 2385, 2387, 2388, 3739, 3740, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], u'mValues': [u'res/color/primary_text_dark.xml', u'res/color/primary_text_dark_nodisable.xml', u'res/color/primary_text_light.xml', u'res/color/primary_text_light_nodisable.xml', u'res/color/secondary_text_dark.xml', u'res/color/secondary_text_dark_nodisable.xml', u'res/color/secondary_text_light.xml', u'res/color/secondary_text_light_nodisable.xml', u'res/color/tab_indicator_text.xml', u'res/color/primary_text_dark_disable_only.xml', u'res/color/primary_text_disable_only_holo_dark.xml', u'res/color/primary_text_disable_only_holo_light.xml', u'res/color/primary_text_holo_dark.xml', u'res/color/primary_text_holo_light.xml', u'res/color/primary_text_light_disable_only.xml', u'res/color/primary_text_nodisable_holo_dark.xml', u'res/color/primary_text_nodisable_holo_light.xml', u'res/color/secondary_text_holo_dark.xml', u'res/color/secondary_text_holo_light.xml', u'res/color/secondary_text_nodisable_holo_dark.xml', u'res/color/secondary_text_nodisable_holo_light.xml', u'res/color/secondary_text_nofocus.xml', u'res/drawable/background_holo_dark.xml', u'res/drawable/background_holo_light.xml', u'res/drawable/btn_cab_done_holo_dark.xml', u'res/drawable/btn_cab_done_holo_light.xml', u'res/drawable/btn_check_holo_dark.xml', u'res/drawable/btn_check_holo_light.xml', u'res/drawable/btn_default_holo_dark.xml', u'res/drawable/btn_default_holo_light.xml', u'res/drawable/btn_star_holo_dark.xml', u'res/drawable/btn_star_holo_light.xml', u'res/drawable/btn_toggle_holo_dark.xml', u'res/drawable/btn_toggle_holo_light.xml', u'res/drawable/edit_text_holo_dark.xml', u'res/drawable/edit_text_holo_light.xml', u'res/drawable/expander_group_holo_dark.xml', u'res/drawable/expander_group_holo_light.xml', u'res/drawable/fastscroll_thumb_holo.xml', u'res/drawable/fastscroll_track_holo_dark.xml', u'res/drawable/fastscroll_track_holo_light.xml', u'res/drawable/ic_clear.xml', u'res/drawable/ic_menu_moreoverflow_holo_dark.xml', u'res/drawable/ic_menu_moreoverflow_holo_light.xml', u'res/drawable/item_background_holo_dark.xml', u'res/drawable/item_background_holo_light.xml', u'res/drawable/list_selector_background_transition_holo_dark.xml', u'res/drawable/list_selector_background_transition_holo_light.xml', u'res/drawable/list_selector_holo_dark.xml', u'res/drawable/list_selector_holo_light.xml', u'res/drawable/menu_panel_holo_dark.xml', u'res/drawable/menu_panel_holo_light.xml', u'res/drawable/progress_horizontal_holo_dark.xml', u'res/drawable/progress_horizontal_holo_light.xml', u'res/drawable/progress_indeterminate_horizontal_holo.xml', u'res/drawable/progress_large_holo.xml', u'res/drawable/progress_medium_holo.xml', u'res/drawable/progress_small_holo.xml', u'res/drawable/quickcontact_badge_overlay_dark.xml', u'res/drawable/quickcontact_badge_overlay_focused_dark.xml', u'res/drawable/quickcontact_badge_overlay_focused_light.xml', u'res/drawable/quickcontact_badge_overlay_light.xml', u'res/drawable/quickcontact_badge_overlay_normal_dark.xml', u'res/drawable/quickcontact_badge_overlay_normal_light.xml', u'res/drawable/quickcontact_badge_overlay_pressed_dark.xml', u'res/drawable/quickcontact_badge_overlay_pressed_light.xml', u'res/drawable/screen_background_selector_dark.xml', u'res/drawable/screen_background_selector_light.xml', u'res/drawable/scrubber_progress_horizontal_holo_dark.xml', u'res/drawable/scrubber_progress_horizontal_holo_light.xml', u'res/drawable/spinner_ab_default_holo_dark.xml', u'res/drawable/spinner_ab_default_holo_light.xml', u'res/drawable/spinner_ab_disabled_holo_dark.xml', u'res/drawable/spinner_ab_disabled_holo_light.xml', u'res/drawable/spinner_ab_focused_holo_dark.xml', u'res/drawable/spinner_ab_focused_holo_light.xml', u'res/drawable/spinner_ab_holo_dark.xml', u'res/drawable/spinner_ab_holo_light.xml', u'res/drawable/spinner_ab_pressed_holo_dark.xml', u'res/drawable/spinner_ab_pressed_holo_light.xml', u'res/drawable/spinner_background_holo_dark.xml', u'res/drawable/spinner_background_holo_light.xml', u'res/drawable/spinner_default_holo_dark.xml', u'res/drawable/spinner_default_holo_light.xml', u'res/drawable/spinner_disabled_holo_dark.xml', u'res/drawable/spinner_disabled_holo_light.xml', u'res/drawable/spinner_focused_holo_dark.xml', u'res/drawable/spinner_focused_holo_light.xml', u'res/drawable/spinner_pressed_holo_dark.xml', u'res/drawable/spinner_pressed_holo_light.xml', u'res/drawable/tab_indicator_holo.xml', u'res/drawable/textfield_searchview_holo_dark.xml', u'res/drawable/textfield_searchview_holo_light.xml', u'res/drawable/textfield_searchview_right_holo_dark.xml', u'res/drawable/textfield_searchview_right_holo_light.xml', u'res/drawable-mdpi/ic_menu_close_clear_cancel.png', u'res/drawable-mdpi/ic_menu_more.png', u'res/drawable-mdpi/toast_frame.9.png', u'res/drawable-mdpi/ab_bottom_solid_dark_holo.9.png', u'res/drawable-mdpi/ab_bottom_solid_light_holo.9.png', u'res/drawable-mdpi/ab_bottom_transparent_dark_holo.9.png', u'res/drawable-mdpi/ab_bottom_transparent_light_holo.9.png', u'res/drawable-mdpi/ab_solid_dark_holo.9.png', u'res/drawable-mdpi/ab_solid_light_holo.9.png', u'res/drawable-mdpi/ab_solid_shadow_holo.9.png', u'res/drawable-mdpi/ab_stacked_solid_dark_holo.9.png', u'res/drawable-mdpi/ab_stacked_solid_light_holo.9.png', u'res/drawable-mdpi/ab_stacked_transparent_dark_holo.9.png', u'res/drawable-mdpi/ab_stacked_transparent_light_holo.9.png', u'res/drawable-mdpi/ab_transparent_dark_holo.9.png', u'res/drawable-mdpi/ab_transparent_light_holo.9.png', u'res/drawable-mdpi/btn_cab_done_default_holo_dark.9.png', u'res/drawable-mdpi/btn_cab_done_default_holo_light.9.png', u'res/drawable-mdpi/btn_cab_done_focused_holo_dark.9.png', u'res/drawable-mdpi/btn_cab_done_focused_holo_light.9.png', u'res/drawable-mdpi/btn_cab_done_pressed_holo_dark.9.png', u'res/drawable-mdpi/btn_cab_done_pressed_holo_light.9.png', u'res/drawable-mdpi/btn_check_off_disabled_focused_holo_dark.png', u'res/drawable-mdpi/btn_check_off_disabled_focused_holo_light.png', u'res/drawable-mdpi/btn_check_off_disabled_holo_dark.png', u'res/drawable-mdpi/btn_check_off_disabled_holo_light.png', u'res/drawable-mdpi/btn_check_off_focused_holo_dark.png', u'res/drawable-mdpi/btn_check_off_focused_holo_light.png', u'res/drawable-mdpi/btn_check_off_holo_dark.png', u'res/drawable-mdpi/btn_check_off_holo_light.png', u'res/drawable-mdpi/btn_check_off_pressed_holo_dark.png', u'res/drawable-mdpi/btn_check_off_pressed_holo_light.png', u'res/drawable-mdpi/btn_check_on_disabled_focused_holo_dark.png', u'res/drawable-mdpi/btn_check_on_disabled_focused_holo_light.png', u'res/drawable-mdpi/btn_check_on_disabled_holo_dark.png', u'res/drawable-mdpi/btn_check_on_disabled_holo_light.png', u'res/drawable-mdpi/btn_check_on_focused_holo_dark.png', u'res/drawable-mdpi/btn_check_on_focused_holo_light.png', u'res/drawable-mdpi/btn_check_on_holo_dark.png', u'res/drawable-mdpi/btn_check_on_holo_light.png', u'res/drawable-mdpi/btn_check_on_pressed_holo_dark.png', u'res/drawable-mdpi/btn_check_on_pressed_holo_light.png', u'res/drawable-mdpi/btn_default_disabled_focused_holo_dark.9.png', u'res/drawable-mdpi/btn_default_disabled_focused_holo_light.9.png', u'res/drawable-mdpi/btn_default_disabled_holo_dark.9.png', u'res/drawable-mdpi/btn_default_disabled_holo_light.9.png', u'res/drawable-mdpi/btn_default_focused_holo_dark.9.png', u'res/drawable-mdpi/btn_default_focused_holo_light.9.png', u'res/drawable-mdpi/btn_default_normal_holo_dark.9.png', u'res/drawable-mdpi/btn_default_normal_holo_light.9.png', u'res/drawable-mdpi/btn_default_pressed_holo_dark.9.png', u'res/drawable-mdpi/btn_default_pressed_holo_light.9.png', u'res/drawable-mdpi/btn_radio_off_disabled_focused_holo_dark.png', u'res/drawable-mdpi/btn_radio_off_disabled_focused_holo_light.png', u'res/drawable-mdpi/btn_radio_off_disabled_holo_dark.png', u'res/drawable-mdpi/btn_radio_off_disabled_holo_light.png', u'res/drawable-mdpi/btn_radio_off_focused_holo_dark.png', u'res/drawable-mdpi/btn_radio_off_focused_holo_light.png', u'res/drawable-mdpi/btn_radio_off_holo_dark.png', u'res/drawable-mdpi/btn_radio_off_holo_light.png', u'res/drawable-mdpi/btn_radio_off_pressed_holo_dark.png', u'res/drawable-mdpi/btn_radio_off_pressed_holo_light.png', u'res/drawable-mdpi/btn_radio_on_disabled_focused_holo_dark.png', u'res/drawable-mdpi/btn_radio_on_disabled_focused_holo_light.png', u'res/drawable-mdpi/btn_radio_on_disabled_holo_dark.png', u'res/drawable-mdpi/btn_radio_on_disabled_holo_light.png', u'res/drawable-mdpi/btn_radio_on_focused_holo_dark.png', u'res/drawable-mdpi/btn_radio_on_focused_holo_light.png', u'res/drawable-mdpi/btn_radio_on_holo_dark.png', u'res/drawable-mdpi/btn_radio_on_holo_light.png', u'res/drawable-mdpi/btn_radio_on_pressed_holo_dark.png', u'res/drawable-mdpi/btn_radio_on_pressed_holo_light.png', u'res/drawable-mdpi/btn_star_off_disabled_focused_holo_dark.png', u'res/drawable-mdpi/btn_star_off_disabled_focused_holo_light.png', u'res/drawable-mdpi/btn_star_off_disabled_holo_dark.png', u'res/drawable-mdpi/btn_star_off_disabled_holo_light.png', u'res/drawable-mdpi/btn_star_off_focused_holo_dark.png', u'res/drawable-mdpi/btn_star_off_focused_holo_light.png', u'res/drawable-mdpi/btn_star_off_normal_holo_dark.png', u'res/drawable-mdpi/btn_star_off_normal_holo_light.png', u'res/drawable-mdpi/btn_star_off_pressed_holo_dark.png', u'res/drawable-mdpi/btn_star_off_pressed_holo_light.png', u'res/drawable-mdpi/btn_star_on_disabled_focused_holo_dark.png', u'res/drawable-mdpi/btn_star_on_disabled_focused_holo_light.png', u'res/drawable-mdpi/btn_star_on_disabled_holo_dark.png', u'res/drawable-mdpi/btn_star_on_disabled_holo_light.png', u'res/drawable-mdpi/btn_star_on_focused_holo_dark.png', u'res/drawable-mdpi/btn_star_on_focused_holo_light.png', u'res/drawable-mdpi/btn_star_on_normal_holo_dark.png', u'res/drawable-mdpi/btn_star_on_normal_holo_light.png', u'res/drawable-mdpi/btn_star_on_pressed_holo_dark.png', u'res/drawable-mdpi/btn_star_on_pressed_holo_light.png', u'res/drawable-mdpi/btn_toggle_off_disabled_focused_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_off_disabled_focused_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_off_disabled_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_off_disabled_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_off_focused_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_off_focused_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_off_normal_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_off_normal_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_off_pressed_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_off_pressed_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_on_disabled_focused_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_on_disabled_focused_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_on_disabled_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_on_disabled_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_on_focused_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_on_focused_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_on_normal_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_on_normal_holo_light.9.png', u'res/drawable-mdpi/btn_toggle_on_pressed_holo_dark.9.png', u'res/drawable-mdpi/btn_toggle_on_pressed_holo_light.9.png', u'res/drawable-mdpi/cab_background_bottom_holo_dark.9.png', u'res/drawable-mdpi/cab_background_bottom_holo_light.9.png', u'res/drawable-mdpi/cab_background_top_holo_dark.9.png', u'res/drawable-mdpi/cab_background_top_holo_light.9.png', u'res/drawable-mdpi/dialog_bottom_holo_dark.9.png', u'res/drawable-mdpi/dialog_bottom_holo_light.9.png', u'res/drawable-mdpi/dialog_full_holo_dark.9.png', u'res/drawable-mdpi/dialog_full_holo_light.9.png', u'res/drawable-mdpi/dialog_middle_holo_dark.9.png', u'res/drawable-mdpi/dialog_middle_holo_light.9.png', u'res/drawable-mdpi/dialog_top_holo_dark.9.png', u'res/drawable-mdpi/dialog_top_holo_light.9.png', u'res/drawable-mdpi/editbox_dropdown_background_dark.9.png', u'res/drawable-mdpi/expander_close_holo_dark.9.png', u'res/drawable-mdpi/expander_close_holo_light.9.png', u'res/drawable-mdpi/expander_open_holo_dark.9.png', u'res/drawable-mdpi/expander_open_holo_light.9.png', u'res/drawable-mdpi/fastscroll_label_left_holo_dark.9.png', u'res/drawable-mdpi/fastscroll_label_left_holo_light.9.png', u'res/drawable-mdpi/fastscroll_label_right_holo_dark.9.png', u'res/drawable-mdpi/fastscroll_label_right_holo_light.9.png', u'res/drawable-mdpi/fastscroll_thumb_default_holo.png', u'res/drawable-mdpi/fastscroll_thumb_pressed_holo.png', u'res/drawable-mdpi/fastscroll_track_default_holo_dark.9.png', u'res/drawable-mdpi/fastscroll_track_default_holo_light.9.png', u'res/drawable-mdpi/fastscroll_track_pressed_holo_dark.9.png', u'res/drawable-mdpi/fastscroll_track_pressed_holo_light.9.png', u'res/drawable-mdpi/ic_cab_done_holo_dark.png', u'res/drawable-mdpi/ic_cab_done_holo_light.png', u'res/drawable-mdpi/ic_clear_disabled.png', u'res/drawable-mdpi/ic_clear_normal.png', u'res/drawable-mdpi/ic_dialog_alert_holo_dark.png', u'res/drawable-mdpi/ic_dialog_alert_holo_light.png', u'res/drawable-mdpi/ic_go.png', u'res/drawable-mdpi/ic_menu_copy_holo_dark.png', u'res/drawable-mdpi/ic_menu_copy_holo_light.png', u'res/drawable-mdpi/ic_menu_cut_holo_dark.png', u'res/drawable-mdpi/ic_menu_cut_holo_light.png', u'res/drawable-mdpi/ic_menu_moreoverflow_normal_holo_dark.png', u'res/drawable-mdpi/ic_menu_moreoverflow_normal_holo_light.png', u'res/drawable-mdpi/ic_menu_paste_holo_dark.png', u'res/drawable-mdpi/ic_menu_paste_holo_light.png', u'res/drawable-mdpi/ic_menu_selectall_holo_dark.png', u'res/drawable-mdpi/ic_menu_selectall_holo_light.png', u'res/drawable-mdpi/ic_search.png', u'res/drawable-mdpi/ic_voice_search.png', u'res/drawable-mdpi/list_divider_holo_dark.9.png', u'res/drawable-mdpi/list_divider_holo_light.9.png', u'res/drawable-mdpi/list_focused_holo.9.png', u'res/drawable-mdpi/list_longpressed_holo_dark.9.png', u'res/drawable-mdpi/list_longpressed_holo_light.9.png', u'res/drawable-mdpi/list_pressed_holo_dark.9.png', u'res/drawable-mdpi/list_pressed_holo_light.9.png', u'res/drawable-mdpi/list_section_divider_holo_dark.9.png', u'res/drawable-mdpi/list_section_divider_holo_light.9.png', u'res/drawable-mdpi/list_selector_disabled_holo_dark.9.png', u'res/drawable-mdpi/list_selector_disabled_holo_light.9.png', u'res/drawable-mdpi/menu_dropdown_panel_holo_dark.9.png', u'res/drawable-mdpi/menu_dropdown_panel_holo_light.9.png', u'res/drawable-mdpi/menu_hardkey_panel_holo_dark.9.png', u'res/drawable-mdpi/menu_hardkey_panel_holo_light.9.png', u'res/drawable-mdpi/menu_popup_panel_holo_dark.9.png', u'res/drawable-mdpi/menu_popup_panel_holo_light.9.png', u'res/drawable-mdpi/menu_submenu_background.9.png', u'res/drawable-mdpi/overscroll_edge.png', u'res/drawable-mdpi/overscroll_glow.png', u'res/drawable-mdpi/progress_bg_holo_dark.9.png', u'res/drawable-mdpi/progress_bg_holo_light.9.png', u'res/drawable-mdpi/progress_primary_holo_dark.9.png', u'res/drawable-mdpi/progress_primary_holo_light.9.png', u'res/drawable-mdpi/progress_secondary_holo_dark.9.png', u'res/drawable-mdpi/progress_secondary_holo_light.9.png', u'res/drawable-mdpi/progressbar_indeterminate_holo1.png', u'res/drawable-mdpi/progressbar_indeterminate_holo2.png', u'res/drawable-mdpi/progressbar_indeterminate_holo3.png', u'res/drawable-mdpi/progressbar_indeterminate_holo4.png', u'res/drawable-mdpi/progressbar_indeterminate_holo5.png', u'res/drawable-mdpi/progressbar_indeterminate_holo6.png', u'res/drawable-mdpi/progressbar_indeterminate_holo7.png', u'res/drawable-mdpi/progressbar_indeterminate_holo8.png', u'res/drawable-mdpi/quickcontact_badge_overlay_focused_dark_am.9.png', u'res/drawable-mdpi/quickcontact_badge_overlay_focused_light_am.9.png', u'res/drawable-mdpi/quickcontact_badge_overlay_normal_dark_am.9.png', u'res/drawable-mdpi/quickcontact_badge_overlay_normal_light_am.9.png', u'res/drawable-mdpi/quickcontact_badge_overlay_pressed_dark_am.9.png', u'res/drawable-mdpi/quickcontact_badge_overlay_pressed_light_am.9.png', u'res/drawable-mdpi/scrollbar_handle_holo_dark.9.png', u'res/drawable-mdpi/scrollbar_handle_holo_light.9.png', u'res/drawable-mdpi/scrubber_primary_holo.9.png', u'res/drawable-mdpi/scrubber_secondary_holo.9.png', u'res/drawable-mdpi/scrubber_track_holo_dark.9.png', u'res/drawable-mdpi/scrubber_track_holo_light.9.png', u'res/drawable-mdpi/spinner_16_inner_holo.png', u'res/drawable-mdpi/spinner_16_outer_holo.png', u'res/drawable-mdpi/spinner_48_inner_holo.png', u'res/drawable-mdpi/spinner_48_outer_holo.png', u'res/drawable-mdpi/spinner_76_inner_holo.png', u'res/drawable-mdpi/spinner_76_outer_holo.png', u'res/drawable-mdpi/spinner_ab_default_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_ab_default_holo_light_am.9.png', u'res/drawable-mdpi/spinner_ab_disabled_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_ab_disabled_holo_light_am.9.png', u'res/drawable-mdpi/spinner_ab_focused_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_ab_focused_holo_light_am.9.png', u'res/drawable-mdpi/spinner_ab_pressed_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_ab_pressed_holo_light_am.9.png', u'res/drawable-mdpi/spinner_default_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_default_holo_light_am.9.png', u'res/drawable-mdpi/spinner_disabled_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_disabled_holo_light_am.9.png', u'res/drawable-mdpi/spinner_focused_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_focused_holo_light_am.9.png', u'res/drawable-mdpi/spinner_pressed_holo_dark_am.9.png', u'res/drawable-mdpi/spinner_pressed_holo_light_am.9.png', u'res/drawable-mdpi/tab_selected_focused_holo.9.png', u'res/drawable-mdpi/tab_selected_holo.9.png', u'res/drawable-mdpi/tab_selected_pressed_holo.9.png', u'res/drawable-mdpi/tab_unselected_focused_holo.9.png', u'res/drawable-mdpi/tab_unselected_holo.9.png', u'res/drawable-mdpi/tab_unselected_pressed_holo.9.png', u'res/drawable-mdpi/text_edit_paste_window.9.png', u'res/drawable-mdpi/text_select_handle_left.png', u'res/drawable-mdpi/text_select_handle_right.png', u'res/drawable-mdpi/textfield_activated_holo_dark.9.png', u'res/drawable-mdpi/textfield_activated_holo_light.9.png', u'res/drawable-mdpi/textfield_default_holo_dark.9.png', u'res/drawable-mdpi/textfield_default_holo_light.9.png', u'res/drawable-mdpi/textfield_disabled_focused_holo_dark.9.png', u'res/drawable-mdpi/textfield_disabled_focused_holo_light.9.png', u'res/drawable-mdpi/textfield_disabled_holo_dark.9.png', u'res/drawable-mdpi/textfield_disabled_holo_light.9.png', u'res/drawable-mdpi/textfield_focused_holo_dark.9.png', u'res/drawable-mdpi/textfield_focused_holo_light.9.png', u'res/drawable-mdpi/textfield_multiline_activated_holo_dark.9.png', u'res/drawable-mdpi/textfield_multiline_activated_holo_light.9.png', u'res/drawable-mdpi/textfield_multiline_default_holo_dark.9.png', u'res/drawable-mdpi/textfield_multiline_default_holo_light.9.png', u'res/drawable-mdpi/textfield_multiline_disabled_focused_holo_dark.9.png', u'res/drawable-mdpi/textfield_multiline_disabled_focused_holo_light.9.png', u'res/drawable-mdpi/textfield_multiline_disabled_holo_dark.9.png', u'res/drawable-mdpi/textfield_multiline_disabled_holo_light.9.png', u'res/drawable-mdpi/textfield_multiline_focused_holo_dark.9.png', u'res/drawable-mdpi/textfield_multiline_focused_holo_light.9.png', u'res/drawable-mdpi/textfield_search_default_holo_dark.9.png', u'res/drawable-mdpi/textfield_search_default_holo_light.9.png', u'res/drawable-mdpi/textfield_search_right_default_holo_dark.9.png', u'res/drawable-mdpi/textfield_search_right_default_holo_light.9.png', u'res/drawable-mdpi/textfield_search_right_selected_holo_dark.9.png', u'res/drawable-mdpi/textfield_search_right_selected_holo_light.9.png', u'res/drawable-mdpi/textfield_search_selected_holo_dark.9.png', u'res/drawable-mdpi/textfield_search_selected_holo_light.9.png', u'res/drawable-nodpi/text_cursor_holo_dark.9.png', u'res/drawable-nodpi/text_cursor_holo_light.9.png', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], u'mGarbage': False, u'mSize': 360}}, {u'mOwnsNative': False, u'mNative': 1895687164, u'mUseSparse': True}], u'mValue': {u'density': 0, u'assetCookie': 0, u'changingConfigurations': -1, u'data': 0, u'resourceId': 0, u'type': 0}, u'mOffsets': [0, 0], u'mNumRefs': 1, u'mObject': 1895685600, u'mOpen': True}", 
+            "type": "reflection", 
+            "class": "android.app.ContextImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "gqhljpudi.dat"
+            ], 
+            "method": "open", 
+            "thread_id": 4492, 
+            "result": "{u'mMarkPos': 0, u'mLength': 229751, u'mAsset': 2027332400}", 
+            "type": "reflection", 
+            "class": "android.content.res.AssetManager"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output"
+            ], 
+            "method": "read", 
+            "thread_id": 4492, 
+            "result": "112400", 
+            "type": "reflection", 
+            "class": "android.content.res.AssetManager_AssetInputStream"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output", 
+                "0", 
+                "Too Big to Output", 
+                "0", 
+                "112400"
+            ], 
+            "method": "arraycopy", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": ""
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output"
+            ], 
+            "method": "read", 
+            "thread_id": 4492, 
+            "result": "112400", 
+            "type": "reflection", 
+            "class": "android.content.res.AssetManager_AssetInputStream"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output", 
+                "0", 
+                "Too Big to Output", 
+                "0", 
+                "112400"
+            ], 
+            "method": "arraycopy", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": ""
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output", 
+                "0", 
+                "Too Big to Output", 
+                "112400", 
+                "112400"
+            ], 
+            "method": "arraycopy", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": ""
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output"
+            ], 
+            "method": "read", 
+            "thread_id": 4492, 
+            "result": "4951", 
+            "type": "reflection", 
+            "class": "android.content.res.AssetManager_AssetInputStream"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output", 
+                "0", 
+                "Too Big to Output", 
+                "224800", 
+                "4951"
+            ], 
+            "method": "arraycopy", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": ""
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output"
+            ], 
+            "method": "read", 
+            "thread_id": 4492, 
+            "result": "-1", 
+            "type": "reflection", 
+            "class": "android.content.res.AssetManager_AssetInputStream"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output", 
+                "0", 
+                "Too Big to Output", 
+                "0", 
+                "229751"
+            ], 
+            "method": "arraycopy", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": ""
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "java.io.FileOutputStream"
+            ], 
+            "method": "forName", 
+            "thread_id": 4492, 
+            "result": "{}", 
+            "type": "reflection", 
+            "class": "java.lang.Class"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.jar", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4492, 
+            "result": "{u'descriptor': 53}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "Too Big to Output"
+            ], 
+            "method": "write", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": "java.io.FileOutputStream"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "close", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": "java.io.FileOutputStream"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getClassLoader", 
+            "thread_id": 4492, 
+            "result": "dalvik.system.PathClassLoader[DexPathList[[zip file \"/data/app/com.ylzkwckr.gnrowriq-1.apk\"],nativeLibraryDirectories=[/data/app-lib/com.ylzkwckr.gnrowriq-1, /vendor/lib, /system/lib, /system/lib/arm]]]", 
+            "type": "reflection", 
+            "class": "java.lang.Class"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "java.lang.ClassLoader"
+            ], 
+            "method": "forName", 
+            "thread_id": 4492, 
+            "result": "{}", 
+            "type": "reflection", 
+            "class": "java.lang.Class"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "dalvik.system.DexClassLoader"
+            ], 
+            "method": "forName", 
+            "thread_id": 4492, 
+            "result": "{}", 
+            "type": "reflection", 
+            "class": "java.lang.Class"
+        }, 
+        {
+            "this": "{u'path': u'/data/data/com.ylzkwckr.gnrowriq/app_svgud'}", 
+            "args": [], 
+            "method": "exists", 
+            "thread_id": 4492, 
+            "result": "true", 
+            "type": "file", 
+            "class": "java.io.File"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "openDexFile", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "dex", 
+            "class": "dalvik.system.DexFile"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.jar", 
+                "0"
+            ], 
+            "method": "open", 
+            "thread_id": 4492, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.jar_56113536-c2f5-43d3-bda8-45765a7be1b4.DROPPED_FILE", 
+                "577"
+            ], 
+            "method": "open", 
+            "thread_id": 4492, 
+            "result": "{u'descriptor': 55}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.jar", 
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.dex", 
+                "0"
+            ], 
+            "method": "dalvik.system.DexFile", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "dex", 
+            "class": "dalvik.system.DexFile"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.jar", 
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.dex", 
+                "0"
+            ], 
+            "method": "loadDex", 
+            "thread_id": 4492, 
+            "result": "{u'guard': {}, u'mCookie': 2027332304, u'mFileName': u'/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.jar'}", 
+            "type": "dex", 
+            "class": "dalvik.system.DexFile"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                ":/data/data/com.ylzkwckr.gnrowriq/app_svgud/abdbgf.jar", 
+                "/data/data/com.ylzkwckr.gnrowriq/app_svgud", 
+                "dalvik.system.PathClassLoader[DexPathList[[zip file \"/data/app/com.ylzkwckr.gnrowriq-1.apk\"],nativeLibraryDirectories=[/data/app-lib/com.ylzkwckr.gnrowriq-1, /vendor/lib, /system/lib, /system/lib/arm]]]"
+            ], 
+            "method": "dalvik.system.DexClassLoader", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "dex", 
+            "class": "dalvik.system.DexClassLoader"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "true"
+            ], 
+            "method": "setAccessible", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": "java.lang.reflect.Field"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "com.ylzkwckr.gnrowriq.eqdlnyxwa.upkodwh"
+            ], 
+            "method": "loadClass", 
+            "thread_id": 4492, 
+            "result": "{}", 
+            "type": "reflection", 
+            "class": "dalvik.system.DexClassLoader"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "android.app.Instrumentation"
+            ], 
+            "method": "forName", 
+            "thread_id": 4492, 
+            "result": "{}", 
+            "type": "reflection", 
+            "class": "java.lang.Class"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{}", 
+                "android.app.ContextImpl@21833500"
+            ], 
+            "method": "newApplication", 
+            "thread_id": 4492, 
+            "result": "com.ylzkwckr.gnrowriq.eqdlnyxwa.upkodwh@218a2590", 
+            "type": "reflection", 
+            "class": ""
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "onCreate", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": "com.ylzkwckr.gnrowriq.eqdlnyxwa.upkodwh"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "debug.second-display.pkg"
+            ], 
+            "method": "get", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.os.SystemProperties"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "app_put", 
+                "true"
+            ], 
+            "method": "putBoolean", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'app_put': True}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "root_phone", 
+                "KzYxNDM4MzgwNTQ1"
+            ], 
+            "method": "putString", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'root_phone': u'KzYxNDM4MzgwNTQ1'}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "app_kill", 
+                "false"
+            ], 
+            "method": "putBoolean", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'app_kill': False}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "free_dialog", 
+                "false"
+            ], 
+            "method": "putBoolean", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'free_dialog': False}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "default_apps_json", 
+                "[\r\n  {\"to\":\"com.db.mm.deutschebank\",\"body\":\"http://sdfsdf32.ru/de/05.php\"},\r\n  {\"to\":\"de.commerzbanking.mobil\",\"body\":\"http://sdfsdf32.ru/de/06.php\"},\r\n  {\"to\":\"com.ing.diba.mbbr2\",\"body\":\"http://sdfsdf32.ru/de/13.php\"},\r\n  {\"to\":\"de.ing_diba.kontostand\",\"body\":\"http://sdfsdf32.ru/de/13.php\"},\r\n  {\"to\":\"de.fiducia.smartphone.android.banking.vr\",\"body\":\"http://sdfsdf32.ru/de/15.php\"},\r\n  {\"to\":\"de.adesso.mobile.android.gad\",\"body\":\"http://sdfsdf32.ru/de/15.php\"},\r\n  {\"to\":\"mobile.santander.de\",\"body\":\"http://sdfsdf32.ru/de/16.php\"},\r\n  {\"to\":\"com.starfinanz.smob.android.sfinanzstatus\",\"body\":\"http://sdfsdf32.ru/de/17.php\"},\r\n  {\"to\":\"com.starfinanz.smob.android.sbanking\",\"body\":\"http://sdfsdf32.ru/de/18.php\"},\r\n  {\"to\":\"de.postbank.finanzassistent\",\"body\":\"http://sdfsdf32.ru/de/23.php\"},\r\n  {\"to\":\"de.dkb.portalapp\",\"body\":\"http://sdfsdf32.ru/de/24.php\"},\r\n  {\"to\":\"com.starfinanz.mobile.android.dkbpushtan\",\"body\":\"http://sdfsdf32.ru/de/24.php\"},\r\n  {\"to\":\"de.consorsbank\",\"body\":\"http://sdfsdf32.ru/de/26.php\"},\r\n  {\"to\":\"de.comdirect.android\",\"body\":\"http://sdfsdf32.ru/de/27.php\"},\r\n  {\"to\":\"com.bankaustria.android.olb\",\"body\":\"http://sdfsdf32.ru/at/bankaustria.php\"},\r\n  {\"to\":\"at.easybank.mbanking\",\"body\":\"http://sdfsdf32.ru/at/easy.php\"},\r\n  {\"to\":\"at.bawag.mbanking\",\"body\":\"http://sdfsdf32.ru/at/bawagpsk.php\"},\r\n  {\"to\":\"at.volksbank.volksbankmobile\",\"body\":\"http://sdfsdf32.ru/at/volksbank.php\"},\r\n  {\"to\":\"com.isis_papyrus.raiffeisen_pay_eyewdg\",\"body\":\"http://sdfsdf32.ru/at/raiffeisen.php\"},\r\n  {\"to\":\"at.spardat.netbanking\",\"body\":\"http://sdfsdf32.ru/at/sparkasse.php\"},\r\n  {\"to\":\"com.commbank.netbank\",\"body\":\"http://sdfsdf32.ru/au/01.php\"},\r\n  {\"to\":\"org.westpac.bank\",\"body\":\"http://sdfsdf32.ru/au/02.php\"},\r\n  {\"to\":\"org.stgeorge.bank\",\"body\":\"http://sdfsdf32.ru/au/03.php\"},\r\n  {\"to\":\"au.com.nab.mobile\",\"body\":\"http://sdfsdf32.ru/au/04.php\"},\r\n  {\"to\":\"au.com.ingdirect.android\",\"body\":\"http://sdfsdf32.ru/au/05.php\"},\r\n  {\"to\":\"au.com.bankwest.mobile\",\"body\":\"http://sdfsdf32.ru/au/06.php\"},\r\n  {\"to\":\"org.banksa.bank\",\"body\":\"http://sdfsdf32.ru/au/08.php\"},\r\n  {\"to\":\"com.android.email\",\"body\":\"http://sdfsdf32.ru/mail/mail.php\"},\r\n  {\"to\":\"com.google.android.gm\",\"body\":\"http://sdfsdf32.ru/mailg/mail.php\"},\r\n  {\"to\":\"com.yahoo.mobile.client.android.mail\",\"body\":\"http://sdfsdf32.ru/maily/mail.php\"},\r\n  {\"to\":\"com.htc.android.mail\",\"body\":\"http://sdfsdf32.ru/mailh/mail.php\"},\r\n  {\"to\":\"com.google.android.email\",\"body\":\"http://sdfsdf32.ru/mailg2/mail.php\"},\r\n  {\"to\":\"com.paypal.android.p2pmobile\",\"body\":\"http://sdfsdf32.ru/paypal/paypal.php\"},\r\n  {\"to\":\"com.akbank.android.apps.akbank_direkt\",\"body\":\"http://sdfsdf32.ru/tr/akbank.php\"},\r\n  {\"to\":\"com.finansbank.mobile.cepsube\",\"body\":\"http://sdfsdf32.ru/tr/finansbank.php\"},\r\n  {\"to\":\"com.garanti.cepsubesi\",\"body\":\"http://sdfsdf32.ru/tr/garanti.php\"},\r\n  {\"to\":\"com.tmobtech.halkbank\",\"body\":\"http://sdfsdf32.ru/tr/halkbank.php\"},\r\n  {\"to\":\"com.pozitron.iscep\",\"body\":\"http://sdfsdf32.ru/tr/isbank.php\"},\r\n  {\"to\":\"com.vakifbank.mobile\",\"body\":\"http://sdfsdf32.ru/tr/vakifbank.php\"},\r\n  {\"to\":\"com.ykb.android\",\"body\":\"http://sdfsdf32.ru/tr/ykb.php\"},\r\n  {\"to\":\"com.ziraat.ziraatmobil\",\"body\":\"http://sdfsdf32.ru/tr/ziraat.php\"},\r\n  {\"to\":\"com.grppl.android.shell.CMBlloydsTSB73\",\"body\":\"http://sdfsdf32.ru/uk/grppl.php\"},\r\n  {\"to\":\"com.grppl.android.shell.halifax\",\"body\":\"http://sdfsdf32.ru/uk/halifax.php\"},\r\n  {\"to\":\"uk.co.tsb.mobilebank\",\"body\":\"http://sdfsdf32.ru/uk/tsb.php\"},\r\n  {\"to\":\"com.bankaustria.android.olb\",\"body\":\"http://sdfsdf32.ru/at/bankaustria.php\"},\r\n  {\"to\":\"at.easybank.mbanking\",\"body\":\"http://sdfsdf32.ru/at/easy.php\"},\r\n  {\"to\":\"at.bawag.mbanking\",\"body\":\"http://sdfsdf32.ru/at/bawagpsk.php\"},\r\n  {\"to\":\"at.volksbank.volksbankmobile\",\"body\":\"http://sdfsdf32.ru/at/volksbank.php\"},\r\n  {\"to\":\"com.isis_papyrus.raiffeisen_pay_eyewdg\",\"body\":\"http://sdfsdf32.ru/at/raiffeisen.php\"},\r\n  {\"to\":\"at.spardat.netbanking\",\"body\":\"http://sdfsdf32.ru/at/sparkasse.php\"},\r\n  {\"to\":\"fr.creditagricole.androidapp\",\"body\":\"http://sdfsdf32.ru/fr/agricole/agricole-01.php\"},\r\n  {\"to\":\"com.cacf.MonCACF\",\"body\":\"http://sdfsdf32.ru/fr/agricole/agricole-01.php\"},\r\n  {\"to\":\"com.caisseepargne.android.mobilebanking\",\"body\":\"http://sdfsdf32.ru/fr/caisseepargne/caisseepargne-01.php\"},\r\n  {\"to\":\"com.fullsix.android.labanquepostale.accountaccess\",\"body\":\"http://sdfsdf32.ru/fr/labanquepostale/labanquepostale-01.php\"},\r\n  {\"to\":\"com.lbp.peps\",\"body\":\"http://sdfsdf32.ru/fr/labanquepostale/labanquepostale-01.php\"},\r\n  {\"to\":\"mobi.societegenerale.mobile.lappli\",\"body\":\"http://sdfsdf32.ru/fr/societegenerale/societegenerale-01.php\"},\r\n  {\"to\":\"net.bnpparibas.mescomptes\",\"body\":\"http://sdfsdf32.ru/fr/bnpparibas/bnpparibas-01.php\"},\r\n  {\"to\":\"com.cm_prod.bad\",\"body\":\"http://sdfsdf32.ru/fr/creditmutuel/creditmutuel-01.php\"},\r\n  {\"to\":\"com.arkea.android.application.cmb\",\"body\":\"http://sdfsdf32.ru/fr/creditmutuel/creditmutuel-01.php\"},\r\n  {\"to\":\"com.arkea.android.application.cmso2\",\"body\":\"http://sdfsdf32.ru/fr/creditmutuel/creditmutuel-01.php\"},\r\n  {\"to\":\"fr.lcl.android.customerarea\",\"body\":\"http://sdfsdf32.ru/fr/lcl/lcl-01.php\"},\r\n  {\"to\":\"com.groupama.toujoursla\",\"body\":\"http://sdfsdf32.ru/fr/groupama/groupama-01.php\"},\r\n  {\"to\":\"fr.lemonway.groupama\",\"body\":\"http://sdfsdf32.ru/fr/groupama/groupama-01.php\"},\r\n  {\"to\":\"com.cic_prod.bad\",\"body\":\"http://sdfsdf32.ru/fr/cic/cic-01.php\"},\r\n  {\"to\":\"fr.axa.monaxa\",\"body\":\"http://sdfsdf32.ru/fr/axa/axa-01.php\"},\r\n  {\"to\":\"com.boursorama.android.clients\",\"body\":\"http://sdfsdf32.ru/fr/boursorama/boursorama-01.php\"},\r\n  {\"to\":\"fr.banquepopulaire.cyberplus.pro\",\"body\":\"http://sdfsdf32.ru/fr/banquepopulaire/banquepopulaire-01.php\"},\r\n  {\"to\":\"fr.banquepopulaire.cyberplus\",\"body\":\"http://sdfsdf32.ru/fr/banquepopulaire/banquepopulaire-01.php\"},\r\n  {\"to\":\"com.macif.mobile.application.android\",\"body\":\"http://sdfsdf32.ru/fr/macif/macif-01.php\"},\r\n  {\"to\":\"com.ocito.cdn.activity.creditdunord\",\"body\":\"http://sdfsdf32.ru/fr/ocito/ocito-01.php\"},\r\n  {\"to\":\"com.IngDirectAndroid\",\"body\":\"http://sdfsdf32.ru/fr/ing/ing.php\"},\r\n  {\"to\":\"com.ebay.mobile\",\"body\":\"http://sdfsdf32.ru/ebay/ebay.php\"},\r\n  {\"to\":\"com.ebay.gumtree.au\",\"body\":\"http://sdfsdf32.ru/ebayau/ebay.php\"},\r\n  {\"to\":\"com.anz.android\",\"body\":\"http://sdfsdf32.ru/anz2/anz.php\"},\r\n  {\"to\":\"com.anz.android.gomoney\",\"body\":\"http://sdfsdf32.ru/anz/anz.php\"}\r\n]"
+            ], 
+            "method": "putString", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'default_apps_json': u'[\\r\\n  {\"to\":\"com.db.mm.deutschebank\",\"body\":\"http://sdfsdf32.ru/de/05.php\"},\\r\\n  {\"to\":\"de.commerzbanking.mobil\",\"body\":\"http://sdfsdf32.ru/de/06.php\"},\\r\\n  {\"to\":\"com.ing.diba.mbbr2\",\"body\":\"http://sdfsdf32.ru/de/13.php\"},\\r\\n  {\"to\":\"de.ing_diba.kontostand\",\"body\":\"http://sdfsdf32.ru/de/13.php\"},\\r\\n  {\"to\":\"de.fiducia.smartphone.android.banking.vr\",\"body\":\"http://sdfsdf32.ru/de/15.php\"},\\r\\n  {\"to\":\"de.adesso.mobile.android.gad\",\"body\":\"http://sdfsdf32.ru/de/15.php\"},\\r\\n  {\"to\":\"mobile.santander.de\",\"body\":\"http://sdfsdf32.ru/de/16.php\"},\\r\\n  {\"to\":\"com.starfinanz.smob.android.sfinanzstatus\",\"body\":\"http://sdfsdf32.ru/de/17.php\"},\\r\\n  {\"to\":\"com.starfinanz.smob.android.sbanking\",\"body\":\"http://sdfsdf32.ru/de/18.php\"},\\r\\n  {\"to\":\"de.postbank.finanzassistent\",\"body\":\"http://sdfsdf32.ru/de/23.php\"},\\r\\n  {\"to\":\"de.dkb.portalapp\",\"body\":\"http://sdfsdf32.ru/de/24.php\"},\\r\\n  {\"to\":\"com.starfinanz.mobile.android.dkbpushtan\",\"body\":\"http://sdfsdf32.ru/de/24.php\"},\\r\\n  {\"to\":\"de.consorsbank\",\"body\":\"http://sdfsdf32.ru/de/26.php\"},\\r\\n  {\"to\":\"de.comdirect.android\",\"body\":\"http://sdfsdf32.ru/de/27.php\"},\\r\\n  {\"to\":\"com.bankaustria.android.olb\",\"body\":\"http://sdfsdf32.ru/at/bankaustria.php\"},\\r\\n  {\"to\":\"at.easybank.mbanking\",\"body\":\"http://sdfsdf32.ru/at/easy.php\"},\\r\\n  {\"to\":\"at.bawag.mbanking\",\"body\":\"http://sdfsdf32.ru/at/bawagpsk.php\"},\\r\\n  {\"to\":\"at.volksbank.volksbankmobile\",\"body\":\"http://sdfsdf32.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"com.isis_papyrus.raiffeisen_pay_eyewdg\",\"body\":\"http://sdfsdf32.ru/at/raiffeisen.php\"},\\r\\n  {\"to\":\"at.spardat.netbanking\",\"body\":\"http://sdfsdf32.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"com.commbank.netbank\",\"body\":\"http://sdfsdf32.ru/au/01.php\"},\\r\\n  {\"to\":\"org.westpac.bank\",\"body\":\"http://sdfsdf32.ru/au/02.php\"},\\r\\n  {\"to\":\"org.stgeorge.bank\",\"body\":\"http://sdfsdf32.ru/au/03.php\"},\\r\\n  {\"to\":\"au.com.nab.mobile\",\"body\":\"http://sdfsdf32.ru/au/04.php\"},\\r\\n  {\"to\":\"au.com.ingdirect.android\",\"body\":\"http://sdfsdf32.ru/au/05.php\"},\\r\\n  {\"to\":\"au.com.bankwest.mobile\",\"body\":\"http://sdfsdf32.ru/au/06.php\"},\\r\\n  {\"to\":\"org.banksa.bank\",\"body\":\"http://sdfsdf32.ru/au/08.php\"},\\r\\n  {\"to\":\"com.android.email\",\"body\":\"http://sdfsdf32.ru/mail/mail.php\"},\\r\\n  {\"to\":\"com.google.android.gm\",\"body\":\"http://sdfsdf32.ru/mailg/mail.php\"},\\r\\n  {\"to\":\"com.yahoo.mobile.client.android.mail\",\"body\":\"http://sdfsdf32.ru/maily/mail.php\"},\\r\\n  {\"to\":\"com.htc.android.mail\",\"body\":\"http://sdfsdf32.ru/mailh/mail.php\"},\\r\\n  {\"to\":\"com.google.android.email\",\"body\":\"http://sdfsdf32.ru/mailg2/mail.php\"},\\r\\n  {\"to\":\"com.paypal.android.p2pmobile\",\"body\":\"http://sdfsdf32.ru/paypal/paypal.php\"},\\r\\n  {\"to\":\"com.akbank.android.apps.akbank_direkt\",\"body\":\"http://sdfsdf32.ru/tr/akbank.php\"},\\r\\n  {\"to\":\"com.finansbank.mobile.cepsube\",\"body\":\"http://sdfsdf32.ru/tr/finansbank.php\"},\\r\\n  {\"to\":\"com.garanti.cepsubesi\",\"body\":\"http://sdfsdf32.ru/tr/garanti.php\"},\\r\\n  {\"to\":\"com.tmobtech.halkbank\",\"body\":\"http://sdfsdf32.ru/tr/halkbank.php\"},\\r\\n  {\"to\":\"com.pozitron.iscep\",\"body\":\"http://sdfsdf32.ru/tr/isbank.php\"},\\r\\n  {\"to\":\"com.vakifbank.mobile\",\"body\":\"http://sdfsdf32.ru/tr/vakifbank.php\"},\\r\\n  {\"to\":\"com.ykb.android\",\"body\":\"http://sdfsdf32.ru/tr/ykb.php\"},\\r\\n  {\"to\":\"com.ziraat.ziraatmobil\",\"body\":\"http://sdfsdf32.ru/tr/ziraat.php\"},\\r\\n  {\"to\":\"com.grppl.android.shell.CMBlloydsTSB73\",\"body\":\"http://sdfsdf32.ru/uk/grppl.php\"},\\r\\n  {\"to\":\"com.grppl.android.shell.halifax\",\"body\":\"http://sdfsdf32.ru/uk/halifax.php\"},\\r\\n  {\"to\":\"uk.co.tsb.mobilebank\",\"body\":\"http://sdfsdf32.ru/uk/tsb.php\"},\\r\\n  {\"to\":\"com.bankaustria.android.olb\",\"body\":\"http://sdfsdf32.ru/at/bankaustria.php\"},\\r\\n  {\"to\":\"at.easybank.mbanking\",\"body\":\"http://sdfsdf32.ru/at/easy.php\"},\\r\\n  {\"to\":\"at.bawag.mbanking\",\"body\":\"http://sdfsdf32.ru/at/bawagpsk.php\"},\\r\\n  {\"to\":\"at.volksbank.volksbankmobile\",\"body\":\"http://sdfsdf32.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"com.isis_papyrus.raiffeisen_pay_eyewdg\",\"body\":\"http://sdfsdf32.ru/at/raiffeisen.php\"},\\r\\n  {\"to\":\"at.spardat.netbanking\",\"body\":\"http://sdfsdf32.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"fr.creditagricole.androidapp\",\"body\":\"http://sdfsdf32.ru/fr/agricole/agricole-01.php\"},\\r\\n  {\"to\":\"com.cacf.MonCACF\",\"body\":\"http://sdfsdf32.ru/fr/agricole/agricole-01.php\"},\\r\\n  {\"to\":\"com.caisseepargne.android.mobilebanking\",\"body\":\"http://sdfsdf32.ru/fr/caisseepargne/caisseepargne-01.php\"},\\r\\n  {\"to\":\"com.fullsix.android.labanquepostale.accountaccess\",\"body\":\"http://sdfsdf32.ru/fr/labanquepostale/labanquepostale-01.php\"},\\r\\n  {\"to\":\"com.lbp.peps\",\"body\":\"http://sdfsdf32.ru/fr/labanquepostale/labanquepostale-01.php\"},\\r\\n  {\"to\":\"mobi.societegenerale.mobile.lappli\",\"body\":\"http://sdfsdf32.ru/fr/societegenerale/societegenerale-01.php\"},\\r\\n  {\"to\":\"net.bnpparibas.mescomptes\",\"body\":\"http://sdfsdf32.ru/fr/bnpparibas/bnpparibas-01.php\"},\\r\\n  {\"to\":\"com.cm_prod.bad\",\"body\":\"http://sdfsdf32.ru/fr/creditmutuel/creditmutuel-01.php\"},\\r\\n  {\"to\":\"com.arkea.android.application.cmb\",\"body\":\"http://sdfsdf32.ru/fr/creditmutuel/creditmutuel-01.php\"},\\r\\n  {\"to\":\"com.arkea.android.application.cmso2\",\"body\":\"http://sdfsdf32.ru/fr/creditmutuel/creditmutuel-01.php\"},\\r\\n  {\"to\":\"fr.lcl.android.customerarea\",\"body\":\"http://sdfsdf32.ru/fr/lcl/lcl-01.php\"},\\r\\n  {\"to\":\"com.groupama.toujoursla\",\"body\":\"http://sdfsdf32.ru/fr/groupama/groupama-01.php\"},\\r\\n  {\"to\":\"fr.lemonway.groupama\",\"body\":\"http://sdfsdf32.ru/fr/groupama/groupama-01.php\"},\\r\\n  {\"to\":\"com.cic_prod.bad\",\"body\":\"http://sdfsdf32.ru/fr/cic/cic-01.php\"},\\r\\n  {\"to\":\"fr.axa.monaxa\",\"body\":\"http://sdfsdf32.ru/fr/axa/axa-01.php\"},\\r\\n  {\"to\":\"com.boursorama.android.clients\",\"body\":\"http://sdfsdf32.ru/fr/boursorama/boursorama-01.php\"},\\r\\n  {\"to\":\"fr.banquepopulaire.cyberplus.pro\",\"body\":\"http://sdfsdf32.ru/fr/banquepopulaire/banquepopulaire-01.php\"},\\r\\n  {\"to\":\"fr.banquepopulaire.cyberplus\",\"body\":\"http://sdfsdf32.ru/fr/banquepopulaire/banquepopulaire-01.php\"},\\r\\n  {\"to\":\"com.macif.mobile.application.android\",\"body\":\"http://sdfsdf32.ru/fr/macif/macif-01.php\"},\\r\\n  {\"to\":\"com.ocito.cdn.activity.creditdunord\",\"body\":\"http://sdfsdf32.ru/fr/ocito/ocito-01.php\"},\\r\\n  {\"to\":\"com.IngDirectAndroid\",\"body\":\"http://sdfsdf32.ru/fr/ing/ing.php\"},\\r\\n  {\"to\":\"com.ebay.mobile\",\"body\":\"http://sdfsdf32.ru/ebay/ebay.php\"},\\r\\n  {\"to\":\"com.ebay.gumtree.au\",\"body\":\"http://sdfsdf32.ru/ebayau/ebay.php\"},\\r\\n  {\"to\":\"com.anz.android\",\"body\":\"http://sdfsdf32.ru/anz2/anz.php\"},\\r\\n  {\"to\":\"com.anz.android.gomoney\",\"body\":\"http://sdfsdf32.ru/anz/anz.php\"}\\r\\n]'}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "default_browsers_apps_json", 
+                "[\r\n  {\"to\":\"mobile.bankaustria.at/IBOA/\",\"body\":\"http://xcvmdsf43.ru/at/bankaustria.php\"},\r\n  {\"to\":\"online.bankaustria.at/wps/portal/userlogin\",\"body\":\"http://xcvmdsf43.ru/at/bankaustria.php\"},\r\n  {\"to\":\"mobile.bankaustria.at/IBOA/login.htm#handler3\",\"body\":\"http://xcvmdsf43.ru/at/bankaustria.php\"},\r\n  {\"to\":\"m.netbanking.sparkasse.at/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"netbanking.sparkasse.at/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"ebanking.easybank.at/InternetBanking/\",\"body\":\"http://xcvmdsf43.ru/at/easy.php\"},\r\n  {\"to\":\"banking.raiffeisen.at/mobil/\",\"body\":\"http://xcvmdsf43.ru/at/raiffeisen.php\"},\r\n  {\"to\":\"banking.raiffeisen.at/logincenter/\",\"body\":\"http://xcvmdsf43.ru/at/raiffeisen.php\"},\r\n  {\"to\":\"ebanking.bawagpsk.com/InternetBanking/\",\"body\":\"http://xcvmdsf43.ru/at/bawagpsk.php\"},\r\n  {\"to\":\"banking.ing-diba.at/online-banking/\",\"body\":\"http://xcvmdsf43.ru/de/13.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=001\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=004\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=005\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=007\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=009\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=014\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=016\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=017\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=025\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=030\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=031\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=040\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=042\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=044\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=049\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=050\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=053\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=058\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=059\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=061\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=062\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=063\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=072\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=073\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=075\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=076\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=079\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=085\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=092\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\r\n  {\"to\":\"kunden.commerzbank.de/lp/login/\",\"body\":\"http://xcvmdsf43.ru/de/06.php\"},\r\n  {\"to\":\"banking.postbank.de/rai/\",\"body\":\"http://xcvmdsf43.ru/de/23.php\"},\r\n  {\"to\":\"securebank.santander.de/I\",\"body\":\"http://xcvmdsf43.ru/de/16.php\"},\r\n  {\"to\":\"banking.ing-diba.de/app\",\"body\":\"http://xcvmdsf43.ru/de/13.php\"},\r\n  {\"to\":\"finanzportal.fiducia.de/g06pepe/\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\r\n  {\"to\":\"finanzportal.fiducia.de/p08pepe/\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\r\n  {\"to\":\"finanzportal.fiducia.de/g09pepe/\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\r\n  {\"to\":\"finanzportal.fiducia.de/p04pepe/entry?rzid=XC&rzbk=0931\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\r\n  {\"to\":\"finanzportal.fiducia.de/p05pepe/entry?rzid=XC&rzbk=1040\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\r\n  {\"to\":\"finanzportal.fiducia.de/p07pepe/entry?rzid=XC&rzbk=0191\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\r\n  {\"to\":\"finanzportal.fiducia.de/g09pepe/entry?rzid=XC&rzbk=0697\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\r\n  {\"to\":\"banking.berliner-sparkasse.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.sparkasse-koelnbonn.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.frankfurter-sparkasse.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.sparkasse-dortmund.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.sparkasse-essen.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"banking.sparkasse-leipzig.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"ostsaechsische-sparkasse-dresden.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"banking.sparkasse-hannover.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"portal.sparkasse-nuernberg.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.sparkasse-duisburg.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.sparkasse-bochum.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.sparkasse-wuppertal.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"bankingportal.sparkasse-bielefeld.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"banking.sparkasse-muensterland-ost.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\r\n  {\"to\":\"my.commbank.com.au/netbank/Logon/Logon.aspx\",\"body\":\"http://xcvmdsf43.ru/au/01.php\"},\r\n  {\"to\":\"ibanking.stgeorge.com.au/mb\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\r\n  {\"to\":\"ibanking.stgeorge.com.au/mbank\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\r\n  {\"to\":\"bbomobile.stgeorge.com.au/Mobile/Login\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\r\n  {\"to\":\"ibanking.stgeorge.com.au/ibank/loginPage.action\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\r\n  {\"to\":\"ib.nab.com.au/nabib/mobile/login.ctl\",\"body\":\"http://xcvmdsf43.ru/au/04.php\"},\r\n  {\"to\":\"ingdirect.com.au/securebanking\",\"body\":\"http://xcvmdsf43.ru/au/05.php\"},\r\n  {\"to\":\"banking.westpac.com.au/wbc/banking/handler?TAM_OP=login&segment=personal&logout=false\",\"body\":\"http://xcvmdsf43.ru/au/02.php\"},\r\n  {\"to\":\"banking.westpac.com.au/wbc/banking/handler?TAM_OP=login&segment=business&logout=false\",\"body\":\"http://xcvmdsf43.ru/au/02.php\"},\r\n  {\"to\":\"banking.westpac.com.au/wbc/banking/handler?TAM_OP=login&URL=%2F&logout=false#/login\",\"body\":\"http://xcvmdsf43.ru/au/02.php\"},\r\n  {\"to\":\"ibanking.banksa.com.au/ibank/loginPage.action\",\"body\":\"http://xcvmdsf43.ru/au/08.php\"},\r\n  {\"to\":\"bbomobile.banksa.com.au/mobile/login\",\"body\":\"http://xcvmdsf43.ru/au/08.php\"},\r\n  {\"to\":\"ibanking.banksa.com.au/mb\",\"body\":\"http://xcvmdsf43.ru/au/08.php\"},\r\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/rib.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\r\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/bib.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\r\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/bibLite.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\r\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/ribLite.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\r\n  {\"to\":\"paypal.com\",\"body\":\"http://xcvmdsf43.ru/paypal.php\"},\r\n  {\"to\":\"online.lloydsbank.co.uk\",\"body\":\"http://xcvmdsf43.ru/uk/grppl.php\"},\r\n  {\"to\":\"halifax-online.co.uk/personal/logon/login.jsp\",\"body\":\"http://xcvmdsf43.ru/uk/halifax.php\"},\r\n  {\"to\":\"online.tsb.co.uk/personal/logon/login.jsp\",\"body\":\"http://xcvmdsf43.ru/uk/tsb.php\"},\r\n  {\"to\":\"internetsubesi.akbank.com/WebApplication.UI/entrypoint.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/akbank.php\"},\r\n  {\"to\":\"internetsubesi.akbank.com/WebApplication.UI/entrypoint.aspx?lang=en-US\",\"body\":\"http://xcvmdsf43.ru/tr/akbank.php\"},\r\n  {\"to\":\"mobilsube.akbank.com.tr/\",\"body\":\"http://xcvmdsf43.ru/tr/akbank.php\"},\r\n  {\"to\":\"internetsubesi.finansbank.com.tr/Login/LoginPage.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/finansbank.php\"},\r\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrycorporate-tr\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\r\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrycorporate-en\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\r\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrypersonal-tr\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\r\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrypersonal-en\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\r\n  {\"to\":\"sube.halkbank.com.tr/WebApplication.UI/EnrollmentTransactions/Login/HostLoginEn.aspx?sid=\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\r\n  {\"to\":\"sube.halkbank.com.tr/WebApplication.UI/EnrollmentTransactions/Login/HostLogin.aspx?sid=\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\r\n  {\"to\":\"msube.halkbank.com.tr/\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\r\n  {\"to\":\"sube.halkbank.com.tr/WebApplication.UI/EnrollmentTransactions/Login/HostLogin.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\r\n  {\"to\":\"www.isbank.com.tr/TicariInternet/Transactions/Login/FirstLogin.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\r\n  {\"to\":\"www.isbank.com.tr/TicariInternet/Transactions/Login/FirstLogin.aspx?ctl00_hiddenCurrentCulture=en-US\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\r\n  {\"to\":\"www.isbank.com.tr/Internet/index.aspx?LangCode=tr-TR\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\r\n  {\"to\":\"www.isbank.com.tr/Internet/index.aspx?LangCode=en-US\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\r\n  {\"to\":\"subesizbankacilik.vakifbank.com.tr/bireyselinternetbankaciligi/vb99/loginUser.aspx?T=0\",\"body\":\"http://xcvmdsf43.ru/tr/vakifbank.php\"},\r\n  {\"to\":\"subesizbankacilik.vakifbank.com.tr/bireyselinternetbankaciligi/vb99/loginUser.aspx?dil=2&T=\",\"body\":\"http://xcvmdsf43.ru/tr/vakifbank.php\"},\r\n  {\"to\":\"yapikredi.com.tr/\",\"body\":\"http://xcvmdsf43.ru/tr/ykb.php\"},\r\n  {\"to\":\"yapikredi.com.tr/en/\",\"body\":\"http://xcvmdsf43.ru/tr/ykb.php\"},\r\n  {\"to\":\"bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?customertype=rtl&rdLng=EN\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\r\n  {\"to\":\"kurumsal.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?customertype=crp&rdLng=EN\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\r\n  {\"to\":\"kurumsal.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?rdLng=TR\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\r\n  {\"to\":\"bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?customertype=rtl\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\r\n  {\"to\":\"bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?rdLng=TR\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\r\n  {\"to\":\"m.ebay.com\",\"body\":\"http://xcvmdsf43.ru/ebay/ebay.php\"},\r\n  {\"to\":\"anz.com/INETBANK/bankmain.asp\",\"body\":\"http://xcvmdsf43.ru/anz/anz.php\"}\r\n]"
+            ], 
+            "method": "putString", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'default_browsers_apps_json': u'[\\r\\n  {\"to\":\"mobile.bankaustria.at/IBOA/\",\"body\":\"http://xcvmdsf43.ru/at/bankaustria.php\"},\\r\\n  {\"to\":\"online.bankaustria.at/wps/portal/userlogin\",\"body\":\"http://xcvmdsf43.ru/at/bankaustria.php\"},\\r\\n  {\"to\":\"mobile.bankaustria.at/IBOA/login.htm#handler3\",\"body\":\"http://xcvmdsf43.ru/at/bankaustria.php\"},\\r\\n  {\"to\":\"m.netbanking.sparkasse.at/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"netbanking.sparkasse.at/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"ebanking.easybank.at/InternetBanking/\",\"body\":\"http://xcvmdsf43.ru/at/easy.php\"},\\r\\n  {\"to\":\"banking.raiffeisen.at/mobil/\",\"body\":\"http://xcvmdsf43.ru/at/raiffeisen.php\"},\\r\\n  {\"to\":\"banking.raiffeisen.at/logincenter/\",\"body\":\"http://xcvmdsf43.ru/at/raiffeisen.php\"},\\r\\n  {\"to\":\"ebanking.bawagpsk.com/InternetBanking/\",\"body\":\"http://xcvmdsf43.ru/at/bawagpsk.php\"},\\r\\n  {\"to\":\"banking.ing-diba.at/online-banking/\",\"body\":\"http://xcvmdsf43.ru/de/13.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=001\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=004\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=005\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=007\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=009\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=014\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=016\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=017\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=025\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=030\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=031\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=040\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=042\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=044\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=049\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=050\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=053\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=058\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=059\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=061\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=062\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=063\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=072\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=073\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=075\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=076\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=079\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=085\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"banking.co.at/appl/ebp/login.html?resource=092\",\"body\":\"http://xcvmdsf43.ru/at/volksbank.php\"},\\r\\n  {\"to\":\"kunden.commerzbank.de/lp/login/\",\"body\":\"http://xcvmdsf43.ru/de/06.php\"},\\r\\n  {\"to\":\"banking.postbank.de/rai/\",\"body\":\"http://xcvmdsf43.ru/de/23.php\"},\\r\\n  {\"to\":\"securebank.santander.de/I\",\"body\":\"http://xcvmdsf43.ru/de/16.php\"},\\r\\n  {\"to\":\"banking.ing-diba.de/app\",\"body\":\"http://xcvmdsf43.ru/de/13.php\"},\\r\\n  {\"to\":\"finanzportal.fiducia.de/g06pepe/\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\\r\\n  {\"to\":\"finanzportal.fiducia.de/p08pepe/\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\\r\\n  {\"to\":\"finanzportal.fiducia.de/g09pepe/\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\\r\\n  {\"to\":\"finanzportal.fiducia.de/p04pepe/entry?rzid=XC&rzbk=0931\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\\r\\n  {\"to\":\"finanzportal.fiducia.de/p05pepe/entry?rzid=XC&rzbk=1040\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\\r\\n  {\"to\":\"finanzportal.fiducia.de/p07pepe/entry?rzid=XC&rzbk=0191\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\\r\\n  {\"to\":\"finanzportal.fiducia.de/g09pepe/entry?rzid=XC&rzbk=0697\",\"body\":\"http://xcvmdsf43.ru/de/15.php\"},\\r\\n  {\"to\":\"banking.berliner-sparkasse.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.sparkasse-koelnbonn.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.frankfurter-sparkasse.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.sparkasse-dortmund.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.sparkasse-essen.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"banking.sparkasse-leipzig.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"ostsaechsische-sparkasse-dresden.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"banking.sparkasse-hannover.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"portal.sparkasse-nuernberg.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.sparkasse-duisburg.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.sparkasse-bochum.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.sparkasse-wuppertal.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"bankingportal.sparkasse-bielefeld.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"banking.sparkasse-muensterland-ost.de/\",\"body\":\"http://xcvmdsf43.ru/at/sparkasse.php\"},\\r\\n  {\"to\":\"my.commbank.com.au/netbank/Logon/Logon.aspx\",\"body\":\"http://xcvmdsf43.ru/au/01.php\"},\\r\\n  {\"to\":\"ibanking.stgeorge.com.au/mb\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\\r\\n  {\"to\":\"ibanking.stgeorge.com.au/mbank\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\\r\\n  {\"to\":\"bbomobile.stgeorge.com.au/Mobile/Login\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\\r\\n  {\"to\":\"ibanking.stgeorge.com.au/ibank/loginPage.action\",\"body\":\"http://xcvmdsf43.ru/au/03.php\"},\\r\\n  {\"to\":\"ib.nab.com.au/nabib/mobile/login.ctl\",\"body\":\"http://xcvmdsf43.ru/au/04.php\"},\\r\\n  {\"to\":\"ingdirect.com.au/securebanking\",\"body\":\"http://xcvmdsf43.ru/au/05.php\"},\\r\\n  {\"to\":\"banking.westpac.com.au/wbc/banking/handler?TAM_OP=login&segment=personal&logout=false\",\"body\":\"http://xcvmdsf43.ru/au/02.php\"},\\r\\n  {\"to\":\"banking.westpac.com.au/wbc/banking/handler?TAM_OP=login&segment=business&logout=false\",\"body\":\"http://xcvmdsf43.ru/au/02.php\"},\\r\\n  {\"to\":\"banking.westpac.com.au/wbc/banking/handler?TAM_OP=login&URL=%2F&logout=false#/login\",\"body\":\"http://xcvmdsf43.ru/au/02.php\"},\\r\\n  {\"to\":\"ibanking.banksa.com.au/ibank/loginPage.action\",\"body\":\"http://xcvmdsf43.ru/au/08.php\"},\\r\\n  {\"to\":\"bbomobile.banksa.com.au/mobile/login\",\"body\":\"http://xcvmdsf43.ru/au/08.php\"},\\r\\n  {\"to\":\"ibanking.banksa.com.au/mb\",\"body\":\"http://xcvmdsf43.ru/au/08.php\"},\\r\\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/rib.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\\r\\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/bib.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\\r\\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/bibLite.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\\r\\n  {\"to\":\"ibs.bankwest.com.au/BWLogin/ribLite.aspx\",\"body\":\"http://xcvmdsf43.ru/au/06.php\"},\\r\\n  {\"to\":\"paypal.com\",\"body\":\"http://xcvmdsf43.ru/paypal.php\"},\\r\\n  {\"to\":\"online.lloydsbank.co.uk\",\"body\":\"http://xcvmdsf43.ru/uk/grppl.php\"},\\r\\n  {\"to\":\"halifax-online.co.uk/personal/logon/login.jsp\",\"body\":\"http://xcvmdsf43.ru/uk/halifax.php\"},\\r\\n  {\"to\":\"online.tsb.co.uk/personal/logon/login.jsp\",\"body\":\"http://xcvmdsf43.ru/uk/tsb.php\"},\\r\\n  {\"to\":\"internetsubesi.akbank.com/WebApplication.UI/entrypoint.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/akbank.php\"},\\r\\n  {\"to\":\"internetsubesi.akbank.com/WebApplication.UI/entrypoint.aspx?lang=en-US\",\"body\":\"http://xcvmdsf43.ru/tr/akbank.php\"},\\r\\n  {\"to\":\"mobilsube.akbank.com.tr/\",\"body\":\"http://xcvmdsf43.ru/tr/akbank.php\"},\\r\\n  {\"to\":\"internetsubesi.finansbank.com.tr/Login/LoginPage.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/finansbank.php\"},\\r\\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrycorporate-tr\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\\r\\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrycorporate-en\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\\r\\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrypersonal-tr\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\\r\\n  {\"to\":\"isube.garanti.com.tr/isube/login/login/passwordentrypersonal-en\",\"body\":\"http://xcvmdsf43.ru/tr/garanti.php\"},\\r\\n  {\"to\":\"sube.halkbank.com.tr/WebApplication.UI/EnrollmentTransactions/Login/HostLoginEn.aspx?sid=\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\\r\\n  {\"to\":\"sube.halkbank.com.tr/WebApplication.UI/EnrollmentTransactions/Login/HostLogin.aspx?sid=\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\\r\\n  {\"to\":\"msube.halkbank.com.tr/\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\\r\\n  {\"to\":\"sube.halkbank.com.tr/WebApplication.UI/EnrollmentTransactions/Login/HostLogin.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/halkbank.php\"},\\r\\n  {\"to\":\"www.isbank.com.tr/TicariInternet/Transactions/Login/FirstLogin.aspx\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\\r\\n  {\"to\":\"www.isbank.com.tr/TicariInternet/Transactions/Login/FirstLogin.aspx?ctl00_hiddenCurrentCulture=en-US\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\\r\\n  {\"to\":\"www.isbank.com.tr/Internet/index.aspx?LangCode=tr-TR\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\\r\\n  {\"to\":\"www.isbank.com.tr/Internet/index.aspx?LangCode=en-US\",\"body\":\"http://xcvmdsf43.ru/tr/isbank.php\"},\\r\\n  {\"to\":\"subesizbankacilik.vakifbank.com.tr/bireyselinternetbankaciligi/vb99/loginUser.aspx?T=0\",\"body\":\"http://xcvmdsf43.ru/tr/vakifbank.php\"},\\r\\n  {\"to\":\"subesizbankacilik.vakifbank.com.tr/bireyselinternetbankaciligi/vb99/loginUser.aspx?dil=2&T=\",\"body\":\"http://xcvmdsf43.ru/tr/vakifbank.php\"},\\r\\n  {\"to\":\"yapikredi.com.tr/\",\"body\":\"http://xcvmdsf43.ru/tr/ykb.php\"},\\r\\n  {\"to\":\"yapikredi.com.tr/en/\",\"body\":\"http://xcvmdsf43.ru/tr/ykb.php\"},\\r\\n  {\"to\":\"bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?customertype=rtl&rdLng=EN\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\\r\\n  {\"to\":\"kurumsal.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?customertype=crp&rdLng=EN\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\\r\\n  {\"to\":\"kurumsal.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?rdLng=TR\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\\r\\n  {\"to\":\"bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?customertype=rtl\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\\r\\n  {\"to\":\"bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?rdLng=TR\",\"body\":\"http://xcvmdsf43.ru/tr/ziraat.php\"},\\r\\n  {\"to\":\"m.ebay.com\",\"body\":\"http://xcvmdsf43.ru/ebay/ebay.php\"},\\r\\n  {\"to\":\"anz.com/INETBANK/bankmain.asp\",\"body\":\"http://xcvmdsf43.ru/anz/anz.php\"}\\r\\n]'}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "server_api_json", 
+                "[\r\n  {\"to\":\"http://zxsdfhdfd44.ru/111/\"},\r\n  {\"to\":\"http://lsdfusdfn47.ru/111/\"},\r\n  {\"to\":\"http://sdfsd3bsdn7.ru/111/\"}\r\n]\r\n"
+            ], 
+            "method": "putString", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'server_api_json': u'[\\r\\n  {\"to\":\"http://zxsdfhdfd44.ru/111/\"},\\r\\n  {\"to\":\"http://lsdfusdfn47.ru/111/\"},\\r\\n  {\"to\":\"http://sdfsd3bsdn7.ru/111/\"}\\r\\n]\\r\\n'}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'cmp': u'com.ylzkwckr.gnrowriq/com.ylzkwckr.gnrowriq.djafkmngd.benjzafwow'}"
+            ], 
+            "method": "startService", 
+            "thread_id": 4492, 
+            "result": "{u'mClass': u'com.ylzkwckr.gnrowriq.djafkmngd.benjzafwow', u'mPackage': u'com.ylzkwckr.gnrowriq'}", 
+            "type": "binder", 
+            "class": "android.content.ContextWrapper"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'cmp': u'com.ylzkwckr.gnrowriq/com.ylzkwckr.gnrowriq.djafkmngd.iquiazhl'}"
+            ], 
+            "method": "startService", 
+            "thread_id": 4492, 
+            "result": "{u'mClass': u'com.ylzkwckr.gnrowriq.djafkmngd.iquiazhl', u'mPackage': u'com.ylzkwckr.gnrowriq'}", 
+            "type": "binder", 
+            "class": "android.content.ContextWrapper"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'mClass': u'com.ylzkwckr.gnrowriq.lbstegyaw.nzyxqhu', u'mPackage': u'com.ylzkwckr.gnrowriq'}", 
+                "2", 
+                "1"
+            ], 
+            "method": "setComponentEnabledSetting", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "generic", 
+            "class": "android.app.ApplicationPackageManager"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getDeviceId", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "fingerprint", 
+            "class": "android.telephony.TelephonyManager"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "+61438380545", 
+                "362815cd55168a555979260159968ef5"
+            ], 
+            "method": "sendTextMessage", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "sms", 
+            "class": "android.telephony.SmsManager"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "+61438380545", 
+                "[u'362815cd55168a555979260159968ef5']"
+            ], 
+            "method": "sendMultipartTextMessage", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "sms", 
+            "class": "android.telephony.SmsManager"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'act': u'android.intent.action.MAIN'}"
+            ], 
+            "method": "startActivity", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "binder", 
+            "class": "android.app.Activity"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'cmp': u'com.ylzkwckr.gnrowriq/com.ylzkwckr.gnrowriq.djafkmngd.ofgqan'}"
+            ], 
+            "method": "startService", 
+            "thread_id": 4492, 
+            "result": "{u'mClass': u'com.ylzkwckr.gnrowriq.djafkmngd.ofgqan', u'mPackage': u'com.ylzkwckr.gnrowriq'}", 
+            "type": "binder", 
+            "class": "android.content.ContextWrapper"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'cachedFsi': -2, u'cachedSsi': -2, u'uriString': u'content://com.android.chrome.browser/history', u'host': u'NOT CACHED', u'scheme': u'NOT CACHED', u'port': -2}", 
+                "true", 
+                "com.ylzkwckr.gnrowriq.jflfw.a.b@2186ded8", 
+                "0"
+            ], 
+            "method": "registerContentObserver", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.content.ContentResolver"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'cachedFsi': -2, u'cachedSsi': -2, u'uriString': u'content://com.android.chrome.browser/history', u'host': u'NOT CACHED', u'scheme': u'NOT CACHED', u'port': -2}", 
+                "true", 
+                "com.ylzkwckr.gnrowriq.jflfw.a.b@2186ded8"
+            ], 
+            "method": "registerContentObserver", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.content.ContentResolver"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'cachedFsi': -2, u'cachedSsi': -2, u'uriString': u'content://browser/bookmarks', u'host': u'NOT CACHED', u'scheme': u'NOT CACHED', u'port': -2}", 
+                "true", 
+                "com.ylzkwckr.gnrowriq.jflfw.a.a@21908f40", 
+                "0"
+            ], 
+            "method": "registerContentObserver", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.content.ContentResolver"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'cachedFsi': -2, u'cachedSsi': -2, u'uriString': u'content://browser/bookmarks', u'host': u'NOT CACHED', u'scheme': u'NOT CACHED', u'port': -2}", 
+                "true", 
+                "com.ylzkwckr.gnrowriq.jflfw.a.a@21908f40"
+            ], 
+            "method": "registerContentObserver", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.content.ContentResolver"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "debug.second-display.pkg"
+            ], 
+            "method": "get", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.os.SystemProperties"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "true"
+            ], 
+            "method": "setMobileDataEnabled", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "reflection", 
+            "class": "android.net.IConnectivityManager_Stub_Proxy"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "app_put", 
+                "false"
+            ], 
+            "method": "putBoolean", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'app_put': False}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "dialog_finish", 
+                "false"
+            ], 
+            "method": "putBoolean", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'dialog_finish': False}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "play_m", 
+                "false"
+            ], 
+            "method": "putBoolean", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'play_m': False}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "ReceiverData{intent=Intent { act=MainActivity.AlarmAction flg=0x14 cmp=com.ylzkwckr.gnrowriq/.jflfw.cgdoe (has extras) } packageName=com.ylzkwckr.gnrowriq resultCode=0 resultData=null resultExtras=null}"
+            ], 
+            "method": "handleReceiver", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "binder", 
+            "class": "android.app.ActivityThread"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "is_admin_active", 
+                "true"
+            ], 
+            "method": "putBoolean", 
+            "thread_id": 4492, 
+            "result": "{u'mModified': {u'is_admin_active': True}, u'mClear': False}", 
+            "type": "globals", 
+            "class": "android.app.SharedPreferencesImpl_EditorImpl"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "{u'act': u'android.intent.action.MAIN'}"
+            ], 
+            "method": "startActivity", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "binder", 
+            "class": "android.content.ContextWrapper"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "ReceiverData{intent=Intent { act=android.app.action.DEVICE_ADMIN_ENABLED flg=0x10 cmp=com.ylzkwckr.gnrowriq/.jflfw.gkbcez } packageName=com.ylzkwckr.gnrowriq resultCode=-1 resultData=null resultExtras=null}"
+            ], 
+            "method": "handleReceiver", 
+            "thread_id": 4492, 
+            "result": "", 
+            "type": "binder", 
+            "class": "android.app.ActivityThread"
+        }
+    ], 
+    "4586": [
+        {
+            "count": 1350, 
+            "this": "", 
+            "args": [
+                "1", 
+                "0"
+            ], 
+            "method": "getRunningTasks", 
+            "thread_id": 4586, 
+            "result": "[{u'lastActiveTime': 0, u'baseActivity': {u'mClass': u'com.ylzkwckr.gnrowriq.lbstegyaw.nzyxqhu', u'mPackage': u'com.ylzkwckr.gnrowriq'}, u'numRunning': 1, u'numActivities': 1, u'id': 2, u'topActivity': {u'mClass': u'com.ylzkwckr.gnrowriq.lbstegyaw.nzyxqhu', u'mPackage': u'com.ylzkwckr.gnrowriq'}}]", 
+            "type": "binder", 
+            "class": "android.app.ActivityManager"
+        }
+    ], 
+    "4588": [
+        {
+            "count": 11742, 
+            "this": "", 
+            "args": [
+                "1", 
+                "0"
+            ], 
+            "method": "getRunningTasks", 
+            "thread_id": 4588, 
+            "result": "[{u'lastActiveTime': 0, u'baseActivity': {u'mClass': u'com.android.launcher3.Launcher', u'mPackage': u'com.cyanogenmod.trebuchet'}, u'numRunning': 1, u'numActivities': 1, u'id': 1, u'topActivity': {u'mClass': u'com.android.launcher3.Launcher', u'mPackage': u'com.cyanogenmod.trebuchet'}}]", 
+            "type": "binder", 
+            "class": "android.app.ActivityManager"
+        }
+    ], 
+    "4590": [
+        {
+            "this": "", 
+            "args": [
+                "{u'cmp': u'com.ylzkwckr.gnrowriq/com.ylzkwckr.gnrowriq.lbstegyaw.dazwk'}"
+            ], 
+            "method": "startActivity", 
+            "thread_id": 4590, 
+            "result": "", 
+            "type": "binder", 
+            "class": "android.content.ContextWrapper"
+        }, 
+        {
+            "count": 508, 
+            "this": "", 
+            "args": [
+                "1", 
+                "0"
+            ], 
+            "method": "getRunningTasks", 
+            "thread_id": 4590, 
+            "result": "[{u'lastActiveTime': 0, u'baseActivity': {u'mClass': u'com.android.launcher3.Launcher', u'mPackage': u'com.cyanogenmod.trebuchet'}, u'numRunning': 1, u'numActivities': 1, u'id': 1, u'topActivity': {u'mClass': u'com.android.launcher3.Launcher', u'mPackage': u'com.cyanogenmod.trebuchet'}}]", 
+            "type": "binder", 
+            "class": "android.app.ActivityManager"
+        }
+    ], 
+    "4786": [
+        {
+            "this": "", 
+            "args": [], 
+            "method": "values", 
+            "thread_id": 4786, 
+            "result": "[u'CONNECTING', u'CONNECTED', u'SUSPENDED', u'DISCONNECTING', u'DISCONNECTED', u'UNKNOWN']", 
+            "type": "reflection", 
+            "class": ""
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getDeviceId", 
+            "thread_id": 4786, 
+            "result": "", 
+            "type": "fingerprint", 
+            "class": "android.telephony.TelephonyManager"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getLine1Number", 
+            "thread_id": 4786, 
+            "result": "", 
+            "type": "fingerprint", 
+            "class": "android.telephony.TelephonyManager"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getDeviceId", 
+            "thread_id": 4786, 
+            "result": "", 
+            "type": "fingerprint", 
+            "class": "android.telephony.TelephonyManager"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "gsm.operator.iso-country"
+            ], 
+            "method": "get", 
+            "thread_id": 4786, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.os.SystemProperties"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getNetworkCountryIso", 
+            "thread_id": 4786, 
+            "result": "il", 
+            "type": "fingerprint", 
+            "class": "android.telephony.TelephonyManager"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "gsm.sim.operator.alpha"
+            ], 
+            "method": "get", 
+            "thread_id": 4786, 
+            "result": "", 
+            "type": "content", 
+            "class": "android.os.SystemProperties"
+        }, 
+        {
+            "this": "", 
+            "args": [], 
+            "method": "getSimOperatorName", 
+            "thread_id": 4786, 
+            "result": "Cellcom", 
+            "type": "fingerprint", 
+            "class": "android.telephony.TelephonyManager"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "/data/misc/keychain/pins", 
+                "0"
+            ], 
+            "method": "open", 
+            "thread_id": 4786, 
+            "result": "{u'descriptor': 54}", 
+            "type": "file", 
+            "class": "libcore.io.IoBridge"
+        }, 
+        {
+            "this": "", 
+            "args": [
+                "http://123dnf585jg.ru"
+            ], 
+            "method": "select", 
+            "thread_id": 4786, 
+            "result": "[{u'type': u'DIRECT'}]", 
+            "type": "generic", 
+            "class": "java.net.ProxySelectorImpl"
+        }
+    ]
+}

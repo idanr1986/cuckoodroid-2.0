@@ -1,0 +1,12 @@
+<h4><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Encryption Plaintext</h4>
+<section id="crypto_data">
+    <div>
+        <table class="table table-striped table-bordered">
+        {% for call in analysis.droidmon.crypto_data %}
+        <tr>
+            <td><span class="mono" ><pre>{{call}}</pre></span></td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>
+</section>
