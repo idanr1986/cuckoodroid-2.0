@@ -512,12 +512,6 @@
             "type": "binder"
         },
         {
-            "class_name": "android.view.View",
-            "method": "setOnClickListener",
-            "thisObject": true,
-            "type": "binder"
-        },
-        {
             "class_name": "java.lang.reflect.Method", 
             "method": "invoke", 
             "thisObject": false, 

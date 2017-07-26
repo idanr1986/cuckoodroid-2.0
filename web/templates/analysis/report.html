@@ -26,6 +26,14 @@
                     </a>
                 </li>
             {% endif %}
+            {% if analysis.droidmon.threads_tree %}
+                <li>
+                    <a href="#threadstree" data-toggle="tab" id="graph_hook">
+                        <span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span>
+                        Thread View
+                    </a>
+                </li>
+            {% endif %}
             {% with suricata=analysis.suricata|custom_length:"alerts tls" snort=analysis.snort|custom_length:"alerts" %}
                 {% if analysis.network.http_ex or analysis.network.https_ex %}
                     <li><a href="#network" data-toggle="tab">
@@ -83,6 +91,11 @@
     {% if analysis.droidmon %}
     <div class="tab-pane fade" id="droidmon">
         {% include "analysis/droidmon/index.html" %}
+    </div>
+    {% endif %}
+    {% if analysis.droidmon.threads_tree %}
+    <div class="tab-pane fade" id="threadstree">
+        {% include "analysis/threads_tree/index.html" %}
     </div>
     {% endif %}
     <div class="tab-pane fade" id="network">

@@ -1,0 +1,1602 @@
+{
+    "info": {
+        "category": "file", 
+        "score": 5.6, 
+        "package": "", 
+        "started": 1501027330.084559, 
+        "route": "none", 
+        "custom": "", 
+        "machine": {
+            "status": "stopped", 
+            "name": "android_x86", 
+            "label": "android_x86", 
+            "manager": "VirtualBox", 
+            "started_on": "2017-07-26 00:02:10", 
+            "shutdown_on": "2017-07-26 00:02:28"
+        }, 
+        "ended": 1501027348.929353, 
+        "version": "2.0-dev", 
+        "platform": "", 
+        "owner": "", 
+        "options": "route=none,procmemdump=yes", 
+        "id": 3, 
+        "duration": 18
+    }, 
+    "droidmon": {
+        "DexFile": [], 
+        "killed_process": [], 
+        "crypto_data": [], 
+        "TelephonyManager_listen": [], 
+        "loadDex": [], 
+        "reflection_calls": [
+            "java.lang.Class->decode"
+        ], 
+        "mac_data": [], 
+        "findLibrary": [
+            {
+                "libname": "APKProtect", 
+                "result": "/data/app-lib/com.kk.liushiwu.com.zz-1/libAPKProtect.so"
+            }
+        ], 
+        "api": {
+            "android_app_Activity_onCreate": 1, 
+            "java_lang_reflect_Method_invoke": 5, 
+            "android_app_ContextImpl_getSystemService": 4, 
+            "android_content_ContextWrapper_startService": 1, 
+            "java_io_File_exists": 1, 
+            "android_app_ApplicationPackageManager_setComponentEnabledSetting": 1, 
+            "dalvik_system_BaseDexClassLoader_findLibrary": 1, 
+            "android_util_Base64_decode": 15, 
+            "android_os_SystemProperties_get": 1
+        }, 
+        "accounts": [], 
+        "SharedPreferences": [], 
+        "registerContentObserver": [], 
+        "started_activities": [], 
+        "started_services": [
+            "com.kk.liushiwu.com.zz/com.kk.liushiwu.com.zz.br"
+        ], 
+        "registered_receivers": [], 
+        "dropped_dex": [], 
+        "threads_tree": {
+            "2654": [
+                {
+                    "this": "{u'path': u'/data/data/com.kk.liushiwu.com.zz/cache'}", 
+                    "args": [], 
+                    "method": "exists", 
+                    "thread_id": 2654, 
+                    "result": "false", 
+                    "type": "file", 
+                    "class": "java.io.File", 
+                    "class_name": "File"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "APKProtect"
+                    ], 
+                    "method": "findLibrary", 
+                    "thread_id": 2654, 
+                    "result": "/data/app-lib/com.kk.liushiwu.com.zz-1/libAPKProtect.so", 
+                    "type": "dex", 
+                    "class": "dalvik.system.BaseDexClassLoader", 
+                    "class_name": "BaseDexClassLoader"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "debug.second-display.pkg"
+                    ], 
+                    "method": "get", 
+                    "thread_id": 2654, 
+                    "result": "", 
+                    "type": "content", 
+                    "class": "android.os.SystemProperties", 
+                    "class_name": "SystemProperties"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "layout_inflater"
+                    ], 
+                    "method": "getSystemService", 
+                    "thread_id": 2654, 
+                    "result": "com.android.internal.policy.impl.PhoneLayoutInflater@218617f0", 
+                    "type": "binder", 
+                    "class": "android.app.ContextImpl", 
+                    "class_name": "ContextImpl"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "display"
+                    ], 
+                    "method": "getSystemService", 
+                    "thread_id": 2654, 
+                    "result": "android.hardware.display.DisplayManager@218864a0", 
+                    "type": "binder", 
+                    "class": "android.app.ContextImpl", 
+                    "class_name": "ContextImpl"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "window"
+                    ], 
+                    "method": "getSystemService", 
+                    "thread_id": 2654, 
+                    "result": "android.view.WindowManagerImpl@21845a98", 
+                    "type": "binder", 
+                    "class": "android.app.ContextImpl", 
+                    "class_name": "ContextImpl"
+                }, 
+                {
+                    "this": "com.kk.liushiwu.com.zz.mainActivity@2186ca60", 
+                    "args": [], 
+                    "method": "onCreate", 
+                    "thread_id": 2654, 
+                    "result": "", 
+                    "type": "binder", 
+                    "class": "android.app.Activity", 
+                    "class_name": "Activity"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "prawq7aBlrixv6eytzVBAUiQijM=", 
+                        "0", 
+                        "28", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 A6 B6 B0 AB B6 81 96 B8 B1 BF A7 B2 B7 35 41 01 .............5A.\n0x00000010 48 90 8A 33                                     H..3", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "prawq7aBlrixv6eytzVBAUiQijM=", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 A6 B6 B0 AB B6 81 96 B8 B1 BF A7 B2 B7 35 41 01 .............5A.\n0x00000010 48 90 8A 33                                     H..3", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "prawq7aBlrixv6eytzVBAUiQijM=", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 A6 B6 B0 AB B6 81 96 B8 B1 BF A7 B2 B7 35 41 01 .............5A.\n0x00000010 48 90 8A 33                                     H..3", 
+                    "type": "reflection", 
+                    "class": "java.lang.Class", 
+                    "class_name": "Class"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "device_policy"
+                    ], 
+                    "method": "getSystemService", 
+                    "thread_id": 2654, 
+                    "result": "android.app.admin.DevicePolicyManager@21845c10", 
+                    "type": "binder", 
+                    "class": "android.app.ContextImpl", 
+                    "class_name": "ContextImpl"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "/uD/7efQ8Lvi/uOi8u3t0vv9tdbbysTbze/d1sbR0sjex9dBRAHbqLcz", 
+                        "0", 
+                        "56", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 FE E0 FF ED E7 D0 F0 BB E2 FE E3 A2 F2 ED ED D2 ................\n0x00000010 FB FD B5 D6 DB CA C4 DB CD EF DD D6 C6 D1 D2 C8 ................\n0x00000020 DE C7 D7 41 44 01 DB A8 B7 33                   ...AD....3", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "/uD/7efQ8Lvi/uOi8u3t0vv9tdbbysTbze/d1sbR0sjex9dBRAHbqLcz", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 FE E0 FF ED E7 D0 F0 BB E2 FE E3 A2 F2 ED ED D2 ................\n0x00000010 FB FD B5 D6 DB CA C4 DB CD EF DD D6 C6 D1 D2 C8 ................\n0x00000020 DE C7 D7 41 44 01 DB A8 B7 33                   ...AD....3", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "/uD/7efQ8Lvi/uOi8u3t0vv9tdbbysTbze/d1sbR0sjex9dBRAHbqLcz", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 FE E0 FF ED E7 D0 F0 BB E2 FE E3 A2 F2 ED ED D2 ................\n0x00000010 FB FD B5 D6 DB CA C4 DB CD EF DD D6 C6 D1 D2 C8 ................\n0x00000020 DE C7 D7 41 44 01 DB A8 B7 33                   ...AD....3", 
+                    "type": "reflection", 
+                    "class": "java.lang.Class", 
+                    "class_name": "Class"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "1sjXxc/42JPK1suK3t7F4d2V9/rh7/Dy/9D48OLoODUBw8lDLTQ=", 
+                        "0", 
+                        "52", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 D6 C8 D7 C5 CF F8 D8 93 CA D6 CB 8A DE DE C5 E1 ................\n0x00000010 DD 95 F7 FA E1 EF F0 F2 FF D0 F8 F0 E2 E8 38 35 ..............85\n0x00000020 01 C3 C9 43 2D 34                               ...C-4", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "1sjXxc/42JPK1suK3t7F4d2V9/rh7/Dy/9D48OLoODUBw8lDLTQ=", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 D6 C8 D7 C5 CF F8 D8 93 CA D6 CB 8A DE DE C5 E1 ................\n0x00000010 DD 95 F7 FA E1 EF F0 F2 FF D0 F8 F0 E2 E8 38 35 ..............85\n0x00000020 01 C3 C9 43 2D 34                               ...C-4", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "1sjXxc/42JPK1suK3t7F4d2V9/rh7/Dy/9D48OLoODUBw8lDLTQ=", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 D6 C8 D7 C5 CF F8 D8 93 CA D6 CB 8A DE DE C5 E1 ................\n0x00000010 DD 95 F7 FA E1 EF F0 F2 FF D0 F8 F0 E2 E8 38 35 ..............85\n0x00000020 01 C3 C9 43 2D 34                               ...C-4", 
+                    "type": "reflection", 
+                    "class": "java.lang.Class", 
+                    "class_name": "Class"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "t6m2pK6ZufKrt6rrv7+kgLz0k5qSmJeOkbyckouTk4qUNjYBqmWhMw==", 
+                        "0", 
+                        "56", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 B7 A9 B6 A4 AE 99 B9 F2 AB B7 AA EB BF BF A4 80 ................\n0x00000010 BC F4 93 9A 92 98 97 8E 91 BC 9C 92 8B 93 93 8A ................\n0x00000020 94 36 36 01 AA 65 A1 33                         .66..e.3", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "t6m2pK6ZufKrt6rrv7+kgLz0k5qSmJeOkbyckouTk4qUNjYBqmWhMw==", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 B7 A9 B6 A4 AE 99 B9 F2 AB B7 AA EB BF BF A4 80 ................\n0x00000010 BC F4 93 9A 92 98 97 8E 91 BC 9C 92 8B 93 93 8A ................\n0x00000020 94 36 36 01 AA 65 A1 33                         .66..e.3", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "t6m2pK6ZufKrt6rrv7+kgLz0k5qSmJeOkbyckouTk4qUNjYBqmWhMw==", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 B7 A9 B6 A4 AE 99 B9 F2 AB B7 AA EB BF BF A4 80 ................\n0x00000010 BC F4 93 9A 92 98 97 8E 91 BC 9C 92 8B 93 93 8A ................\n0x00000020 94 36 36 01 AA 65 A1 33                         .66..e.3", 
+                    "type": "reflection", 
+                    "class": "java.lang.Class", 
+                    "class_name": "Class"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "v6G+rKaRsfqroaaovLv2mbSmv7GxvaPwgbeYkTZFAbeCcyk0", 
+                        "0", 
+                        "48", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 BF A1 BE AC A6 91 B1 FA AB A1 A6 A8 BC BB F6 99 ................\n0x00000010 B4 A6 BF B1 B1 BD A3 F0 81 B7 98 91 36 45 01 B7 ............6E..\n0x00000020 82 73 29 34                                     .s)4", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "v6G+rKaRsfqroaaovLv2mbSmv7GxvaPwgbeYkTZFAbeCcyk0", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 BF A1 BE AC A6 91 B1 FA AB A1 A6 A8 BC BB F6 99 ................\n0x00000010 B4 A6 BF B1 B1 BD A3 F0 81 B7 98 91 36 45 01 B7 ............6E..\n0x00000020 82 73 29 34                                     .s)4", 
+                    "type": "generic", 
+                    "class": "android.util.Base64", 
+                    "class_name": "Base64"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "v6G+rKaRsfqroaaovLv2mbSmv7GxvaPwgbeYkTZFAbeCcyk0", 
+                        "0"
+                    ], 
+                    "method": "decode", 
+                    "thread_id": 2654, 
+                    "result": "\n0x00000000 BF A1 BE AC A6 91 B1 FA AB A1 A6 A8 BC BB F6 99 ................\n0x00000010 B4 A6 BF B1 B1 BD A3 F0 81 B7 98 91 36 45 01 B7 ............6E..\n0x00000020 82 73 29 34                                     .s)4", 
+                    "type": "reflection", 
+                    "class": "java.lang.Class", 
+                    "class_name": "Class"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "{u'extras': [{u'key': u'auto', u'value': u'ok'}], u'cmp': u'com.kk.liushiwu"
+                    ], 
+                    "method": "startService", 
+                    "thread_id": 2654, 
+                    "result": "{u'mClass': u'com.kk.liushiwu.com.zz.br', u'mPackage': u'com.kk.liushiwu.co", 
+                    "type": "binder", 
+                    "class": "android.content.ContextWrapper", 
+                    "class_name": "ContextWrapper"
+                }, 
+                {
+                    "this": "", 
+                    "args": [
+                        "{u'mClass': u'com.kk.liushiwu.com.zz.mainActivity', u'mPackage': u'com.kk.l", 
+                        "2", 
+                        "1"
+                    ], 
+                    "method": "setComponentEnabledSetting", 
+                    "thread_id": 2654, 
+                    "result": "", 
+                    "type": "generic", 
+                    "class": "android.app.ApplicationPackageManager", 
+                    "class_name": "ApplicationPackageManager"
+                }
+            ]
+        }, 
+        "ComponentEnabledSetting": [
+            {
+                "component_new_state": "COMPONENT_ENABLED_STATE_DISABLED", 
+                "component_name": "com.kk.liushiwu.com.zz/com.kk.liushiwu.com.zz.mainActivity"
+            }
+        ], 
+        "sms": [], 
+        "decoded_base64": [
+            "\n0x00000000 A6 B6 B0 AB B6 81 96 B8 B1 BF A7 B2 B7 35 41 01 .............5A.\n0x00000010 48 90 8A 33                                     H..3", 
+            "\n0x00000000 A6 B6 B0 AB B6 81 96 B8 B1 BF A7 B2 B7 35 41 01 .............5A.\n0x00000010 48 90 8A 33                                     H..3", 
+            "\n0x00000000 A6 B6 B0 AB B6 81 96 B8 B1 BF A7 B2 B7 35 41 01 .............5A.\n0x00000010 48 90 8A 33                                     H..3", 
+            "\n0x00000000 FE E0 FF ED E7 D0 F0 BB E2 FE E3 A2 F2 ED ED D2 ................\n0x00000010 FB FD B5 D6 DB CA C4 DB CD EF DD D6 C6 D1 D2 C8 ................\n0x00000020 DE C7 D7 41 44 01 DB A8 B7 33                   ...AD....3", 
+            "\n0x00000000 FE E0 FF ED E7 D0 F0 BB E2 FE E3 A2 F2 ED ED D2 ................\n0x00000010 FB FD B5 D6 DB CA C4 DB CD EF DD D6 C6 D1 D2 C8 ................\n0x00000020 DE C7 D7 41 44 01 DB A8 B7 33                   ...AD....3", 
+            "\n0x00000000 FE E0 FF ED E7 D0 F0 BB E2 FE E3 A2 F2 ED ED D2 ................\n0x00000010 FB FD B5 D6 DB CA C4 DB CD EF DD D6 C6 D1 D2 C8 ................\n0x00000020 DE C7 D7 41 44 01 DB A8 B7 33                   ...AD....3", 
+            "\n0x00000000 D6 C8 D7 C5 CF F8 D8 93 CA D6 CB 8A DE DE C5 E1 ................\n0x00000010 DD 95 F7 FA E1 EF F0 F2 FF D0 F8 F0 E2 E8 38 35 ..............85\n0x00000020 01 C3 C9 43 2D 34                               ...C-4", 
+            "\n0x00000000 D6 C8 D7 C5 CF F8 D8 93 CA D6 CB 8A DE DE C5 E1 ................\n0x00000010 DD 95 F7 FA E1 EF F0 F2 FF D0 F8 F0 E2 E8 38 35 ..............85\n0x00000020 01 C3 C9 43 2D 34                               ...C-4", 
+            "\n0x00000000 D6 C8 D7 C5 CF F8 D8 93 CA D6 CB 8A DE DE C5 E1 ................\n0x00000010 DD 95 F7 FA E1 EF F0 F2 FF D0 F8 F0 E2 E8 38 35 ..............85\n0x00000020 01 C3 C9 43 2D 34                               ...C-4", 
+            "\n0x00000000 B7 A9 B6 A4 AE 99 B9 F2 AB B7 AA EB BF BF A4 80 ................\n0x00000010 BC F4 93 9A 92 98 97 8E 91 BC 9C 92 8B 93 93 8A ................\n0x00000020 94 36 36 01 AA 65 A1 33                         .66..e.3", 
+            "\n0x00000000 B7 A9 B6 A4 AE 99 B9 F2 AB B7 AA EB BF BF A4 80 ................\n0x00000010 BC F4 93 9A 92 98 97 8E 91 BC 9C 92 8B 93 93 8A ................\n0x00000020 94 36 36 01 AA 65 A1 33                         .66..e.3", 
+            "\n0x00000000 B7 A9 B6 A4 AE 99 B9 F2 AB B7 AA EB BF BF A4 80 ................\n0x00000010 BC F4 93 9A 92 98 97 8E 91 BC 9C 92 8B 93 93 8A ................\n0x00000020 94 36 36 01 AA 65 A1 33                         .66..e.3", 
+            "\n0x00000000 BF A1 BE AC A6 91 B1 FA AB A1 A6 A8 BC BB F6 99 ................\n0x00000010 B4 A6 BF B1 B1 BD A3 F0 81 B7 98 91 36 45 01 B7 ............6E..\n0x00000020 82 73 29 34                                     .s)4", 
+            "\n0x00000000 BF A1 BE AC A6 91 B1 FA AB A1 A6 A8 BC BB F6 99 ................\n0x00000010 B4 A6 BF B1 B1 BD A3 F0 81 B7 98 91 36 45 01 B7 ............6E..\n0x00000020 82 73 29 34                                     .s)4", 
+            "\n0x00000000 BF A1 BE AC A6 91 B1 FA AB A1 A6 A8 BC BB F6 99 ................\n0x00000010 B4 A6 BF B1 B1 BD A3 F0 81 B7 98 91 36 45 01 B7 ............6E..\n0x00000020 82 73 29 34                                     .s)4"
+        ], 
+        "logs": [], 
+        "SystemProperties": [
+            "debug.second-display.pkg"
+        ], 
+        "httpConnections": [], 
+        "commands_output": [], 
+        "encoded_base64": [], 
+        "ContentResolver_queries": [], 
+        "events": [], 
+        "loadClass": [], 
+        "setMobileDataEnabled": [], 
+        "DexClassLoader": [], 
+        "findResource": [], 
+        "data_leak": [], 
+        "get_system_services": [
+            "window", 
+            "layout_inflater", 
+            "display", 
+            "device_policy"
+        ], 
+        "fingerprint": [], 
+        "types": {
+            "dex": 1, 
+            "reflection": 5, 
+            "generic": 16, 
+            "content": 1, 
+            "binder": 6, 
+            "file": 1
+        }, 
+        "commands": [], 
+        "connected_urls": [], 
+        "file_accessed": [
+            "/data/data/com.kk.liushiwu.com.zz/cache"
+        ], 
+        "raw": [], 
+        "crypto_keys": [], 
+        "PathClassLoader": [], 
+        "ContentValues": [], 
+        "sendBroadcast": [], 
+        "error": [], 
+        "sleep": [], 
+        "reflected_api": {
+            "java_lang_Class_decode": 5
+        }, 
+        "dropped_so": [], 
+        "handleReceiver": []
+    }, 
+    "signatures": [
+        {
+            "markcount": 0, 
+            "families": [], 
+            "description": "Application Uses Native Jni Methods (Static)", 
+            "severity": 2, 
+            "marks": [], 
+            "references": [], 
+            "name": "android_native_code"
+        }, 
+        {
+            "markcount": 11, 
+            "families": [], 
+            "description": "Application Uses Reflection Methods (Static)", 
+            "severity": 2, 
+            "marks": [
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/a/a/a/b;->_10039cf(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/a/a/a/c;->asBinder(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/b;->_1007e4f(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/br;->_1005514(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/bs;->_1005327(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/c;->_1000b24(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/fr;->_100520f(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/fr;->a(Lcom/kk/liushiwu/com/zz/fr; Landroid/content/Context;)V (0x82) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/mainActivity;->_10046b4(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/pr;->_1007ce3(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "Static API Call", 
+                    "ioc": "1 Lcom/kk/liushiwu/com/zz/pr;->a(Ljava/lang/String;)V (0x52) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "references": [], 
+            "name": "android_reflection_code"
+        }, 
+        {
+            "markcount": 1, 
+            "families": [], 
+            "description": "Application Contains Shared Object Files (Static)", 
+            "severity": 2, 
+            "marks": [
+                {
+                    "category": "lib/armeabi/libAPKProtect.so", 
+                    "ioc": {
+                        "size": 23496, 
+                        "type": "ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV)", 
+                        "name": "lib/armeabi/libAPKProtect.so", 
+                        "md5": "b7b89e2d84ed85fef11ea84775899380"
+                    }, 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "references": [], 
+            "name": "application_contains_so"
+        }, 
+        {
+            "markcount": 9, 
+            "families": [], 
+            "description": "Application Asks For Dangerous Permissions (Static)", 
+            "severity": 3, 
+            "marks": [
+                {
+                    "category": "android.permission.SEND_SMS", 
+                    "ioc": "Allows application to send SMS messages. Malicious applications may cost you money by sending messages without your confirmation.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.RECEIVE_SMS", 
+                    "ioc": "Allows application to receive and process SMS messages. Malicious applications may monitor your messages or delete them without showing them to you.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.READ_SMS", 
+                    "ioc": "Allows application to read SMS messages stored on your phone or SIM card. Malicious applications may read your confidential messages.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.WRITE_SMS", 
+                    "ioc": "Allows application to write to SMS messages stored on your phone or SIM card. Malicious applications may delete your messages.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.READ_PHONE_STATE", 
+                    "ioc": "Allows the application to access the phone features of the device. An application with this permission can determine the phone number and serial number of this phone, whether a call is active, the number that call is connected to and so on.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.PROCESS_OUTGOING_CALLS", 
+                    "ioc": "Allows application to process outgoing calls and change the number to be dialled. Malicious applications may monitor, redirect or prevent outgoing calls.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.CALL_PHONE", 
+                    "ioc": "Allows an application to initiate a phone call without going through the Dialer user interface for the user to confirm the call being placed. ", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.WRITE_CONTACTS", 
+                    "ioc": "Allows an application to modify the contact (address) data stored on your phone. Malicious applications can use this to erase or modify your contact data.", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "android.permission.READ_CONTACTS", 
+                    "ioc": "Allows an application to read all of the contact (address) data stored on your phone. Malicious applications can use this to send your data to other people.", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "references": [], 
+            "name": "android_dangerous_permissions"
+        }, 
+        {
+            "markcount": 1, 
+            "families": [], 
+            "description": "Application Uses Reflection (Dynamic)", 
+            "severity": 3, 
+            "marks": [
+                {
+                    "category": "Dynamic API Call", 
+                    "ioc": "java.lang.Class->decode", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "references": [], 
+            "name": "application_reflection"
+        }, 
+        {
+            "markcount": 2, 
+            "families": [], 
+            "description": "Application Using Anti Disassembly (Static)", 
+            "severity": 4, 
+            "marks": [
+                {
+                    "category": "classes.dex", 
+                    "ioc": "non-zero link size", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "category": "classes.dex", 
+                    "ioc": "non-zero link offset", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "references": [], 
+            "name": "application_anti_disassembly"
+        }, 
+        {
+            "markcount": 0, 
+            "families": [], 
+            "description": "Application Requested Device Administrator (Dynamic)", 
+            "severity": 4, 
+            "marks": [], 
+            "references": [], 
+            "name": "application_device_admin"
+        }, 
+        {
+            "markcount": 1, 
+            "families": [], 
+            "description": "Application Using APKProtect Packer (Static)", 
+            "severity": 4, 
+            "marks": [
+                {
+                    "category": "d6f5fb57c2f29a4536c2544ab8c43a08c4a065dc66271adbe2913f61acbced4b", 
+                    "ioc": "APKProtect", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "references": [], 
+            "name": "application_packer"
+        }, 
+        {
+            "markcount": 1, 
+            "families": [], 
+            "description": "Application Set Component Enabled Setting (Dynamic)", 
+            "severity": 4, 
+            "marks": [
+                {
+                    "category": "Dynamic API Call", 
+                    "ioc": {
+                        "component_new_state": "COMPONENT_ENABLED_STATE_DISABLED", 
+                        "component_name": "com.kk.liushiwu.com.zz/com.kk.liushiwu.com.zz.mainActivity"
+                    }, 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "references": [], 
+            "name": "application_setComponentEnabledSetting"
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "yara": [], 
+            "sha1": "b5341d33ca5399620938a50b6d942fcfedd3aa46", 
+            "name": "APKProtect_packer.apk", 
+            "type": "Zip archive data, at least v2.0 to extract", 
+            "sha256": "d6f5fb57c2f29a4536c2544ab8c43a08c4a065dc66271adbe2913f61acbced4b", 
+            "urls": [], 
+            "crc32": "D4F614D7", 
+            "path": "/Users/guardianangel/GitHub/stageing/cuckoodroid-2.0/storage/binaries/d6f5fb57c2f29a4536c2544ab8c43a08c4a065dc66271adbe2913f61acbced4b", 
+            "ssdeep": null, 
+            "size": 37847, 
+            "sha512": "2187e98e58167436080594e24206e4eeee028921fecf4cbfe0e97b54fe82d0e357cf4f86d5fbb1a7f5b6b6fffded83467f28cc40fd0a5c3aeab6beb3e4a306d1", 
+            "md5": "88240dd75ec5e78491f8d04c3e51d4af"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [
+            {
+                "src": "192.168.56.10", 
+                "dst": "8.8.4.4", 
+                "offset": 234, 
+                "time": 2.9971399307250977, 
+                "dport": 53, 
+                "sport": 14191
+            }, 
+            {
+                "src": "192.168.56.10", 
+                "dst": "8.8.4.4", 
+                "offset": 332, 
+                "time": 3.1793160438537598, 
+                "dport": 53, 
+                "sport": 35617
+            }, 
+            {
+                "src": "192.168.56.10", 
+                "dst": "8.8.4.4", 
+                "offset": 424, 
+                "time": 3.1990139484405518, 
+                "dport": 53, 
+                "sport": 57849
+            }, 
+            {
+                "src": "192.168.56.10", 
+                "dst": "8.8.4.4", 
+                "offset": 515, 
+                "time": 4.972131967544556, 
+                "dport": 53, 
+                "sport": 40285
+            }
+        ], 
+        "icmp": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "mitm": [], 
+        "hosts": [
+            "8.8.4.4"
+        ], 
+        "pcap_sha256": "185374120752c9ef2403ad9d74a035060b66ca863394a3f016e7f315842709f1", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "apkinfo": {
+        "files": [
+            {
+                "size": 1592, 
+                "type": "data", 
+                "name": "resources.arsc", 
+                "md5": "db1491a1a58afa67594d2fd58038acdf"
+            }, 
+            {
+                "size": 480, 
+                "type": "Android binary XML", 
+                "name": "res/xml/ok.xml", 
+                "md5": "91cfe922529dfe1af577e4dc59385436"
+            }, 
+            {
+                "size": 40712, 
+                "type": "Dalvik dex file version 035", 
+                "name": "classes.dex", 
+                "md5": "78b622518da54ae2499407f85d6286d8"
+            }, 
+            {
+                "size": 689, 
+                "type": "ASCII text, with CRLF line terminators", 
+                "name": "META-INF/TZPKOIRU.SF", 
+                "md5": "dd449fe2085ebf42dddfd7c247085398"
+            }, 
+            {
+                "size": 4361, 
+                "type": "PNG image data, 68 x 68, 8-bit colormap, non-interlaced", 
+                "name": "res/drawable/icon.png", 
+                "md5": "7db8086d20ac453f649c3c04a166db13"
+            }, 
+            {
+                "size": 23496, 
+                "type": "ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV)", 
+                "name": "lib/armeabi/libAPKProtect.so", 
+                "md5": "b7b89e2d84ed85fef11ea84775899380"
+            }, 
+            {
+                "size": 568, 
+                "type": "ASCII text, with CRLF line terminators", 
+                "name": "META-INF/MANIFEST.MF", 
+                "md5": "f5f393c12f7bae61798f42a18f37b971"
+            }, 
+            {
+                "size": 4840, 
+                "type": "Android binary XML", 
+                "name": "AndroidManifest.xml", 
+                "md5": "915d04055b3c4dfe34e0a1c9d83cc714"
+            }, 
+            {
+                "size": 420, 
+                "type": "Android binary XML", 
+                "name": "res/layout/main.xml", 
+                "md5": "2400f69882b7ba332a55e1b6acfddbe0"
+            }, 
+            {
+                "size": 976, 
+                "type": "data", 
+                "name": "META-INF/TZPKOIRU.RSA", 
+                "md5": "c285bcae214cfd8e922e1c9dd505eedb"
+            }
+        ], 
+        "dex_strings": [
+            "", 
+            "@gzD0sfjx/e329v2x8PHt+uvx+PO36/zz/O/x8Pfmt9bN+vX66ff28eA4QQG7Wa+v", 
+            "D==nOmMLYx8TM38eYytjX09HYwtqNwsbaxsbL2c3Pjf/308/T097M2No2MwFUZMNnNAwN", 
+            "DU=g8aTApNTU+LjVpOCklIiMpMCt/MzQrNDc5KD8+fw4FIj0iIS8+KShCMgFd1CCciDMi", 
+            "DU=QjZS8lKjkhIiplJyU6LjwlLydgPysnKzsmJCAyYAIaLiIuPiMhJTdCNgGDOlBgNjLS", 
+            "DU=oNSwELBBcPDARLCQsUABILAQlOEQUJBRUICg4cTiw0AAwAEA0PCxk5NAGb1dZT2DAw", 
+            "DU=6W35qfn4OUmJ/fkp+PlImfmp3VhZ6dnoGTnpWI1bivlJeUi5mUn4IyMAHdeMBvSDmJ", 
+            "readException", 
+            "obtain", 
+            "printStackTrace", 
+            "\\'Landroid/app/admin/DeviceAdminReceiver;", 
+            "Landroid/content/Context;", 
+            "onDisableRequested", 
+            "D==IiYy4jKz8gJCtjJiM7KD0jLiFhOSohKj0nIiE0YQQbKCMoPyUgIzZCQwF3rWzANALC", 
+            "writeInterfaceToken", 
+            "onEnabled", 
+            "Ljava/lang/Exception;", 
+            "DU=3+vPL89+D8+/e8+vzn9+H88v695vb+9uL7/f3rvdvH9//34/r8/Oo3RgFL0ZQg0D8P", 
+            "D==ctZiEmJDovISRmKSY0LTImISRuPCUkJTgoJy4xbgEULSwtMCAvJjlCOQFNK4hnNAIy", 
+            "VLL", 
+            "CREATOR", 
+            "D==jLicfJwtXJzsKJz8nSwtTJx8uI08PLw9fOyMjeiO7ywsrC1s/Jyd81MgEjd8hmNAxc", 
+            "getStackTrace", 
+            "\\xe8\\xbd\\xaf  \\xe4\\xbb\\xb6 \\xe5\\xb7\\xb2 \\xe5\\xae\\x89 \\xe8\\xa3\\x85\\xef\\xbc\\x8c\\xe6\\x9c\\xaa \\xe6\\x89\\x93 \\xe5\\xbc\\x80", 
+            "asBinder", 
+            ".", 
+            "DU=NIAkRCQV5KRUECTEJRSVdCREALWEBAQFxNQ0tVC2VxSUlJVURKQlxERAFZOrxSPjRk", 
+            "-Ljava/lang/reflect/InvocationTargetException;", 
+            "Landroid/content/Intent;", 
+            "@IzEzcD8wOiwxNzpwNzAqOywwPzJwKjsyOy42MTAncBcKOzI7LjYxMCdDQgGdIIPT", 
+            "recycle", 
+            "DU=7Yn9Tf0cPa2NGf3N/B1Mff1N2bxdDd0MHd3tvIm/jh1NnUxdna38w2MAHNcCffwD1t", 
+            "createTypedArrayList", 
+            "DU=cqZiYmIzooISNmLiYzLTUmJiRpPCIkIjgvJykxaQETLSstNyAoJj5COQGgK2OCoDJC", 
+            "D==3orOTs4fDq6+Gs7Ozx5/fs5O6r9uDu4PLt7ev7q8vR5+nn9erq7Pw2RgF8jCZANA5u", 
+            "CI", 
+            "lastIndexOf", 
+            "charAt", 
+            "\\'Landroid/telephony/NeighboringCellInfo;", 
+            "Lcom/kk/liushiwu/com/zz/a;", 
+            "@kzC88bCxta2+trXxuLGluqOxsLP/q7SztK+5sL+m/5aFur26obe+sag0QQFpxysr", 
+            "DU=al56mnrLunoKznoae8rLqnqaXmva2lrbmgpqaw5oCcrKSsuKGnp7EzOAGHiWShvzq6", 
+            "[Ljava/lang/StackTraceElement;", 
+            "D==pEC0hLTVdGTE0LQEtdQFtLSEkHUUxJTFVBSkdcB2x9QEVAWU1GS1BENAF5n1goNASk", 
+            "@oz6P34OfhoONmIbfi5+WlJCfg53MhYedh4GKnoyIzLi2lI6UkpmNn5syMAE5ozgZ", 
+            "Ljava/util/ArrayList;", 
+            "onDisabled", 
+            "15021214941", 
+            "@MzJXA1tDXl9VRF4DU0NOSEhDW0EUWV9BX11SQlRUFGRuSFZISkVVQ0NEQwFLfDWU", 
+            "VLLL", 
+            "DU=VWBFpEX1hUQ18EUkRPT0lEWkYVXl5GXlpTRVVTFWNvT1dPS0JUREJENwEtnrVVvzWE", 
+            "D==Dgoezh6f3i5umh5OH56v/h7OOj++jj6P/l4OP2o8bZ6uHq/efi4fQ3QQE9vbAsNA7u", 
+            "\"Ljava/lang/IllegalAccessException;", 
+            "Landroid/os/Parcelable$Creator;", 
+            "@8zMaUhYSEw4YFRNSHhIDGQUSFhBZCBIQEgwfExkFWTUjGRsZBxQYEg5BRAEgVYFB", 
+            "@UzfHlsvWzsrF0c6Ww9be3djWy9SEzM/Uz8jC18TBhPH+3cbd2tDF1tM2OQFhYJyd", 
+            "D==jdmdHZ1MXf3tSZ2dnE0sLZ0duew9Xb1cfY2N7Onv7k0tzSwN/f2ck2MgHX32K3NA09", 
+            "D==n9uPH49OT///S4+fjk8+L48fq+4vX69eb4+f7vvt/E8/zz4P7/+Ok4MwGMNiqpNA8/", 
+            "Ljava/lang/CharSequence;", 
+            "@Qz3fnNPc1sDd29ac29zG18Dc096cxtfe18La3dzLnPvm197Xwtrd3Ms1RgGgps0d", 
+            "DU=j6qfbp8/X47vOp/unj4uXp9uu58/Lr8vf/6Pn+uc7D4vvi5+/46e43MgExNaRGTj9O", 
+            "DU=Trpefl4vnp4uKl7+Xy7vTl5+eo/+Pn4/vu5OjyqMLS7uru9uPp5f83NgG+sYlPrD5e", 
+            "Lcom/kk/liushiwu/com/zz/b;", 
+            "!Ljava/lang/NoSuchMethodException;", 
+            "createFromParcel", 
+            "\"Ljava/lang/ClassNotFoundException;", 
+            "getClassName", 
+            "Ljava/lang/StackTraceElement;", 
+            "@0zOT0p+Smo6RlZrSl5KKmYySn5DQiJuQm4yWk5CF0LWqmZKZjpSRkocyRAGQl1nZ", 
+            "transact", 
+            "$Ljava/lang/IllegalArgumentException;", 
+            "getMethodName"
+        ], 
+        "hidden_payload": [], 
+        "certificate": {
+            "text": "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Number: 1430106466 (0x553db162)\n        Signature Algorithm: sha1WithRSAEncryption\n        Issuer: C=qwevlkjqwev, ST=vzlkjv, L=lzxckjzc, O=f23l4kjf234, OU=123flkj4, CN=wlfkjqwef\n        Validity\n            Not Before: Apr 27 03:47:46 2015 GMT\n            Not After : Oct 17 03:47:46 2020 GMT\n        Subject: C=qwevlkjqwev, ST=vzlkjv, L=lzxckjzc, O=f23l4kjf234, OU=123flkj4, CN=wlfkjqwef\n        Subject Public Key Info:\n            Public Key Algorithm: rsaEncryption\n            RSA Public Key: (1024 bit)\n                Modulus (1024 bit):\n                    00:a8:3c:1f:e9:41:8c:c4:41:f8:5c:52:29:e1:27:\n                    6a:18:6f:9d:9b:c1:85:b2:e0:86:fc:4c:cf:89:f8:\n                    4c:0f:1f:fa:75:9d:e6:90:05:d5:b2:f9:d4:5d:7c:\n                    85:a7:bd:cf:a4:9e:5d:f3:44:05:79:4f:6a:31:07:\n                    22:ec:69:53:6b:79:2a:f7:a7:c4:b2:37:af:3e:0e:\n                    9d:65:af:f7:3b:21:bc:19:5a:ca:42:e5:73:4a:00:\n                    83:71:d1:85:c8:55:72:f4:51:05:b5:0a:9a:a6:5c:\n                    3b:51:9f:2b:a7:b6:68:6e:0d:b8:c0:0d:8c:fd:6d:\n                    77:9b:2d:58:60:36:48:e2:13\n                Exponent: 65537 (0x10001)\n    Signature Algorithm: sha1WithRSAEncryption\n        a0:da:fe:1a:33:da:39:f7:d9:43:05:9b:2f:85:f6:b8:cc:fe:\n        dc:df:35:40:01:e6:6f:03:cb:09:98:34:4a:52:8c:4c:ae:4f:\n        cb:67:5c:4e:76:94:96:f5:48:51:5e:4f:cc:a5:81:01:91:b1:\n        7f:c4:b4:a8:c4:c5:ae:af:fe:52:11:89:3f:10:51:bc:c3:31:\n        6f:aa:2b:32:f6:72:f4:47:c9:22:91:54:39:17:03:b1:47:2b:\n        69:38:40:f2:fe:28:7c:25:5e:8c:d7:b6:65:1f:62:9c:d6:61:\n        70:11:9a:b4:5e:73:4b:c1:02:ce:ac:52:d7:e4:15:ae:59:8a:\n        08:d4\n\n", 
+            "issuer": {
+                "C": "qwevlkjqwev", 
+                "CN": "wlfkjqwef", 
+                "L": "lzxckjzc", 
+                "O": "f23l4kjf234", 
+                "ST": "vzlkjv", 
+                "OU": "123flkj4"
+            }, 
+            "fingerprint": "231A025ED6406D81C32E04B56295A84AFFBD7940"
+        }, 
+        "files_flaged": {
+            "dex": [], 
+            "exe": [], 
+            "ko": [], 
+            "jar": [], 
+            "arm_exe": [], 
+            "apk": [], 
+            "so": [
+                {
+                    "size": 23496, 
+                    "type": "ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV)", 
+                    "name": "lib/armeabi/libAPKProtect.so", 
+                    "md5": "b7b89e2d84ed85fef11ea84775899380"
+                }
+            ]
+        }, 
+        "manifest": {
+            "activities": [
+                "com.kk.liushiwu.com.zz.mainActivity"
+            ], 
+            "receivers_info": [
+                {
+                    "intents": [
+                        {
+                            "actions": [
+                                "android.provider.Telephony.SMS_RECEIVED"
+                            ]
+                        }
+                    ], 
+                    "name": ".fr"
+                }, 
+                {
+                    "intents": [
+                        {
+                            "actions": [
+                                "android.intent.action.PHONE_STATE", 
+                                "android.intent.action.NEW_OUTGOING_CALL"
+                            ]
+                        }
+                    ], 
+                    "name": ".pr"
+                }, 
+                {
+                    "intents": [
+                        {
+                            "actions": [
+                                "android.app.action.DEVICE_ADMIN_ENABLED"
+                            ]
+                        }
+                    ], 
+                    "name": ".a"
+                }
+            ], 
+            "main_activity": "com.kk.liushiwu.com.zz.mainActivity", 
+            "receivers": [
+                "com.kk.liushiwu.com.zz.fr", 
+                "com.kk.liushiwu.com.zz.pr", 
+                "com.kk.liushiwu.com.zz.a"
+            ], 
+            "package": "com.kk.liushiwu.com.zz", 
+            "libraries": [], 
+            "receivers_actions": [
+                "android.provider.Telephony.SMS_RECEIVED", 
+                "android.intent.action.PHONE_STATE", 
+                "android.intent.action.NEW_OUTGOING_CALL", 
+                "android.app.action.DEVICE_ADMIN_ENABLED"
+            ], 
+            "providers": [], 
+            "services": [
+                "com.kk.liushiwu.com.zz.br", 
+                "com.kk.liushiwu.com.zz.bs"
+            ], 
+            "permissions": [
+                {
+                    "action": "send SMS messages", 
+                    "description": "Allows application to send SMS messages. Malicious applications may cost you money by sending messages without your confirmation.", 
+                    "name": "android.permission.SEND_SMS", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "receive SMS", 
+                    "description": "Allows application to receive and process SMS messages. Malicious applications may monitor your messages or delete them without showing them to you.", 
+                    "name": "android.permission.RECEIVE_SMS", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "read SMS or MMS", 
+                    "description": "Allows application to read SMS messages stored on your phone or SIM card. Malicious applications may read your confidential messages.", 
+                    "name": "android.permission.READ_SMS", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "edit SMS or MMS", 
+                    "description": "Allows application to write to SMS messages stored on your phone or SIM card. Malicious applications may delete your messages.", 
+                    "name": "android.permission.WRITE_SMS", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "read phone state and identity", 
+                    "description": "Allows the application to access the phone features of the device. An application with this permission can determine the phone number and serial number of this phone, whether a call is active, the number that call is connected to and so on.", 
+                    "name": "android.permission.READ_PHONE_STATE", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "intercept outgoing calls", 
+                    "description": "Allows application to process outgoing calls and change the number to be dialled. Malicious applications may monitor, redirect or prevent outgoing calls.", 
+                    "name": "android.permission.PROCESS_OUTGOING_CALLS", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "directly call phone numbers", 
+                    "description": "Allows an application to initiate a phone call without going through the Dialer user interface for the user to confirm the call being placed. ", 
+                    "name": "android.permission.CALL_PHONE", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "write contact data", 
+                    "description": "Allows an application to modify the contact (address) data stored on your phone. Malicious applications can use this to erase or modify your contact data.", 
+                    "name": "android.permission.WRITE_CONTACTS", 
+                    "severity": "dangerous"
+                }, 
+                {
+                    "action": "read contact data", 
+                    "description": "Allows an application to read all of the contact (address) data stored on your phone. Malicious applications can use this to send your data to other people.", 
+                    "name": "android.permission.READ_CONTACTS", 
+                    "severity": "dangerous"
+                }
+            ]
+        }, 
+        "encrypted_assets": [], 
+        "static_method_calls": {
+            "is_dynamic_code": false, 
+            "native_method_calls": [], 
+            "permissions_method_calls": {
+                "READ_CONTACTS": [
+                    "R ['Landroid/provider/CallLog$Calls;', 'CONTENT_URI', 'Landroid/net/Uri;'] (0x1c4) ---> Lcom/kk/liushiwu/com/zz/br;->onStart(Landroid/content/Intent; I)V", 
+                    "R ['Landroid/provider/ContactsContract$CommonDataKinds$Phone;', 'CONTENT_URI', 'Landroid/net/Uri;'] (0xc0) ---> Lcom/kk/liushiwu/com/zz/br;->onStart(Landroid/content/Intent; I)V"
+                ], 
+                "SEND_SMS": [
+                    "1 Lcom/kk/liushiwu/com/zz/b;->a(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V (0x5e) ---> Landroid/telephony/SmsManager;->sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V", 
+                    "1 Lcom/kk/liushiwu/com/zz/b;->a(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V (0x72) ---> Landroid/telephony/SmsManager;->sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V"
+                ], 
+                "WRITE_CONTACTS": [
+                    "R ['Landroid/provider/CallLog$Calls;', 'CONTENT_URI', 'Landroid/net/Uri;'] (0x1c4) ---> Lcom/kk/liushiwu/com/zz/br;->onStart(Landroid/content/Intent; I)V", 
+                    "R ['Landroid/provider/ContactsContract$CommonDataKinds$Phone;', 'CONTENT_URI', 'Landroid/net/Uri;'] (0xc0) ---> Lcom/kk/liushiwu/com/zz/br;->onStart(Landroid/content/Intent; I)V"
+                ], 
+                "WAKE_LOCK": [
+                    "1 Lcom/kk/liushiwu/com/zz/b;->a(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V (0x5e) ---> Landroid/telephony/SmsManager;->sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V", 
+                    "1 Lcom/kk/liushiwu/com/zz/b;->a(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V (0x72) ---> Landroid/telephony/SmsManager;->sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V"
+                ]
+            }, 
+            "reflection_method_calls": [
+                "1 Lcom/a/a/a/b;->_10039cf(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/a/a/a/c;->asBinder(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/b;->_1007e4f(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/br;->_1005514(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/bs;->_1005327(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/c;->_1000b24(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/fr;->_100520f(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/fr;->a(Lcom/kk/liushiwu/com/zz/fr; Landroid/content/Context;)V (0x82) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/mainActivity;->_10046b4(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/pr;->_1007ce3(Ljava/lang/String;)Ljava/lang/String; (0x214) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;", 
+                "1 Lcom/kk/liushiwu/com/zz/pr;->a(Ljava/lang/String;)V (0x52) ---> Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;"
+            ], 
+            "is_crypto_code": false, 
+            "dynamic_method_calls": [], 
+            "crypto_method_calls": [], 
+            "classes": [
+                "Lcom/a/a/a/a;", 
+                "Lcom/a/a/a/b;", 
+                "Lcom/a/a/a/c;", 
+                "Lcom/kk/liushiwu/com/zz/a;", 
+                "Lcom/kk/liushiwu/com/zz/b;", 
+                "Lcom/kk/liushiwu/com/zz/br;", 
+                "Lcom/kk/liushiwu/com/zz/bs;", 
+                "Lcom/kk/liushiwu/com/zz/c;", 
+                "Lcom/kk/liushiwu/com/zz/fr;", 
+                "Lcom/kk/liushiwu/com/zz/mainActivity;", 
+                "Lcom/kk/liushiwu/com/zz/pr;", 
+                "Lcom/kk/liushiwu/com/zz/APKPMainAPP15163;"
+            ], 
+            "is_native_code": true, 
+            "all_methods": [
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/b", 
+                    "name": "_10039cf"
+                }, 
+                {
+                    "return": "Lcom/a/a/a/a", 
+                    "params": [
+                        "Landroid/os/IBinder"
+                    ], 
+                    "class": "Lcom/a/a/a/b", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "Z", 
+                    "params": [
+                        "I", 
+                        "Landroid/os/Parcel", 
+                        "Landroid/os/Parcel", 
+                        "I"
+                    ], 
+                    "class": "Lcom/a/a/a/b", 
+                    "name": "onTransact"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "asBinder"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "Z", 
+                    "params": [
+                        "Z"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "b"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "b"
+                }, 
+                {
+                    "return": "Z", 
+                    "params": [
+                        "Z"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "b"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "c"
+                }, 
+                {
+                    "return": "Z", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "c"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "d"
+                }, 
+                {
+                    "return": "Z", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "d"
+                }, 
+                {
+                    "return": "I", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "e"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "e"
+                }, 
+                {
+                    "return": "I", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "f"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "f"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "g"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "h"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "i"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "j"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "k"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "l"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "m"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "n"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "o"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "p"
+                }, 
+                {
+                    "return": "Z", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "q"
+                }, 
+                {
+                    "return": "Landroid/os/Bundle", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "r"
+                }, 
+                {
+                    "return": "Ljava/util/List", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "s"
+                }, 
+                {
+                    "return": "I", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "t"
+                }, 
+                {
+                    "return": "I", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "u"
+                }, 
+                {
+                    "return": "I", 
+                    "class": "Lcom/a/a/a/c", 
+                    "name": "v"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/kk/liushiwu/com/zz/a", 
+                    "name": "<init>"
+                }, 
+                {
+                    "return": "Ljava/lang/CharSequence", 
+                    "params": [
+                        "Landroid/content/Context", 
+                        "Landroid/content/Intent"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/a", 
+                    "name": "onDisableRequested"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Landroid/content/Context", 
+                        "Landroid/content/Intent"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/a", 
+                    "name": "onDisabled"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Landroid/content/Context", 
+                        "Landroid/content/Intent"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/a", 
+                    "name": "onEnabled"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/b", 
+                    "name": "_1007e4f"
+                }, 
+                {
+                    "return": "Ljava/lang/StringBuilder", 
+                    "params": [
+                        "Landroid/content/Context"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/b", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Landroid/content/Context", 
+                        "Ljava/lang/String", 
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/b", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Landroid/content/Context", 
+                        "Ljava/lang/String", 
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/b", 
+                    "name": "b"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/kk/liushiwu/com/zz/br", 
+                    "name": "<init>"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/br", 
+                    "name": "_1005514"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Landroid/content/Intent", 
+                        "I"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/br", 
+                    "name": "onStart"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/kk/liushiwu/com/zz/bs", 
+                    "name": "<init>"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/bs", 
+                    "name": "_1005327"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Landroid/content/Intent", 
+                        "I"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/bs", 
+                    "name": "onStart"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Lcom/kk/liushiwu/com/zz/pr"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/c", 
+                    "name": "<init>"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/c", 
+                    "name": "_1000b24"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "I", 
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/c", 
+                    "name": "onCallStateChanged"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/kk/liushiwu/com/zz/fr", 
+                    "name": "<init>"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/fr", 
+                    "name": "_100520f"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Lcom/kk/liushiwu/com/zz/fr", 
+                        "Landroid/content/Context"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/fr", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/kk/liushiwu/com/zz/mainActivity", 
+                    "name": "<init>"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/mainActivity", 
+                    "name": "_10046b4"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Landroid/os/Bundle"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/mainActivity", 
+                    "name": "onCreate"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Z"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/mainActivity", 
+                    "name": "onWindowFocusChanged"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/kk/liushiwu/com/zz/pr", 
+                    "name": "<init>"
+                }, 
+                {
+                    "return": "Ljava/lang/String", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/pr", 
+                    "name": "_1007ce3"
+                }, 
+                {
+                    "return": "V", 
+                    "params": [
+                        "Ljava/lang/String"
+                    ], 
+                    "class": "Lcom/kk/liushiwu/com/zz/pr", 
+                    "name": "a"
+                }, 
+                {
+                    "return": "V", 
+                    "class": "Lcom/kk/liushiwu/com/zz/APKPMainAPP15163", 
+                    "name": "<init>"
+                }
+            ], 
+            "is_reflection_code": true
+        }, 
+        "APKiD": {
+            "d6f5fb57c2f29a4536c2544ab8c43a08c4a065dc66271adbe2913f61acbced4b": {
+                "packer": [
+                    "APKProtect"
+                ]
+            }, 
+            "classes_dex": {
+                "anti_disassembly": [
+                    "non-zero link size", 
+                    "non-zero link offset"
+                ], 
+                "malware": [
+                    "Hide Application Icon"
+                ], 
+                "compiler": [
+                    "dexlib 1.x"
+                ]
+            }
+        }, 
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAMAAAAPzWOAAAAC/VBMVEUAAAARmdhUtuJ+yeqP0O6k\n2fGt3PK54/aW1e+KzexvxOlIsuKX0+7H5fPi9fzs+f33/P2PpbLJ1dbs8fX////w/P/o+P7f9Pw1\nrN/k9f3o6uxId5QxY4Zzlqi4ytTw9/s6bI4lWoVPe5ZljKB6na2fsr/P7vtag5pUf5hCcY9gh5yv\nv8ra3+La8/1ikqtskKMZUICPssJQhqdvnLaw4fSiwMd9pbpXi6lpmLSDqb3F6/vA0Nqoxs5/y+zR\nx77CvLDHv7HLwrTOxbbWzMDf3c+4sKStopC1qpy/tqnTyrqIrb+Cp7DZ0L/d1MOYusXi2MZ5yOzn\n3crr4c57kZPu5NE6QEXz6NPYx6/r3bEbGiKbu77g1r327Nh5cWZBKhiUcFdqnKUtMTfX6fT89eH6\n8NublYkkFxAwHRF+ZlWryMT//uabgGBvTTNNTlOy0MMIBAQVDw36+en+//DCnYV+VDTGpnhphoVL\nREScao2G0O5sWEqdakzgx5Z0e3PkbbfSU6SnxLSMpaTr6d1bVFKZinwxJiFVQzhlmY+5nHqpmXtZ\nWl+jpZ9INilWSkeqgGnhv6lwxuyJh35oYV9ZfnCc2/fLrprSuKWUe2b79NOOfGzC3b6407KvyKm1\njHhiTTmGcVWzj2amd1x6YUlgQiZVOB6ag0qOYkVtSCWejGl/Ri6JUjzYkE2suI7D4K5yNx97PyTK\njGbjkUr88sT//9huLhXevozzqFzfikRcwOvDtpPB2pxeJRDqv5/1t3/piDr17L7/+sD0x6P2xY/o\neDH+6rHPp4vwmUf+2K7626Hp05//4LL706ntjTr4z5vStYLzpUz0nkHukT5Lu+36yH/0o0X4zaf3\nuF/xlz780ZD4uFb1qkg/s+j6wXD7wFb4rkv2sFT5tlD7vFE3uvbfuJzZsJj4sk3sx7P00Lz818X7\nw2DXoIHwnV/mkkv1rFCcSx6jWTKwYji5c031sW/lfzTuo07pn1jclE/qizzZq2jfn1ngdC7LuoPI\ncz3lnFDWdC7G5FcNAAAA/3RSTlMAEmKo3P///f/QikfN/v////////////8v////////////////\n////////////////////4///////////yv///////////////////////8v/////////////////\n/////////////////////////////////P/////////////A////////////////////////////\nif///////////v////////////+Y/////v7L///////K////////////////////////////////\n///////////////+//////////////////////7//////////eFp3i9V6xL/r/9Did2kAAAMvElE\nQVRYw3XYCVhTVxoG4Ki1MG1ZhAhlV4JsshQYxIoDomxSxAGBAYUgOwYwEEQqy9SyRLaA2OKIlp2i\nQsUFYbSyCyFAIEQCIRnIUogt1mgrtNpq55n/3CRo1fkgC5ec937nnEseDQ4ny5q1695Z/1refVfp\n3XfX/58o/+W999fgXs2atR+oqKq9HvUNGzQ08Xj1jWpvi5a20rr3XzE+XKcCB3Vei5qunr6+voGh\nrpH6Rq03fqujo6WmpfTeapkPP1BVe/M1OuqGenqbNusbE0y2aGiqA/QWxnTdGoWh9TZDR32Lmbme\nhYUlwczY2NJkq5WRzFHFvtA33NSsZcqadW/toaOlaWOJFIItwdLMWP8jfYKdhq66upqWquqrczZ9\nDyFrVdRU35aNGvYONuZ6xgRbW4KZ+aaPNuvrW1hukBeSvwZ1+euHUOQDNZ23IuqO9tscnIwJBgaA\nWGzevHmThbGenp65wRaskGKQlvY6VETrrYaqkZ2Tw3Ybe4TYmm3St7DYpGdubG6OIMUKqWpra6ui\nKuu00dM3o6X7scN2UJxssSabLGBm5saYYgyQMVYIJqattWMt7h0dbIz1azdtNWeHbQ4ODtuhii0B\n1ncTjDUzA0QPHsxRJ3MCrJCm+kaYjzIg1tbWr9+sjXYCAlWcnAhQxEIPqphbWkIXPXgwMzOzJMCD\nsbntBg2jv+HWq1qrGr0l6lbOWAwhW7dshdjoEQgwF0BgzwHBds3YwkQTEG1rTRfXXbvc3Nx2Q1xW\ns+dPcXFx36pna4sWxBxdOZaWtmixLM30tkITZUA8PL1QPFC83wh22MvLzdAYtglW1xKNJkARbPPN\nrHRkiLeXfLCrq+suaPVq4JArRrkYmsMY2BcYjLYd3RsQzAw0rQGxttbc5YEBaIybm3xessAPcsnb\nxdnGALZJz97AwMTEBN3g3tZ8ixGGmGruAgIDsIF7sbjIvxSS6x5DG9gre3snk21YfHw++cTEwNJZ\n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\nEXjZL3+sEv8DTyUxjfJnyqgAAAAASUVORK5CYII=\n"
+    }, 
+    "debug": {
+        "errors": [], 
+        "log": [
+            "2017-01-20 09:46:36,884 [root] INFO: Starting analyzer from: /data/local/tmp/kvmcydur\n", 
+            "2017-01-20 09:46:36,884 [root] INFO: Storing results at: /data/local/tmp/jfuybknm\n", 
+            "2017-01-20 09:46:36,885 [root] INFO: Target is: /data/local/tmp/APKProtect_packer.apk\n", 
+            "2017-01-20 09:46:36,886 [root] INFO: No analysis package specified, trying to detect it automagically\n", 
+            "2017-01-20 09:46:36,887 [root] INFO: Automatically selected analysis package \"apk\"\n", 
+            "2017-01-20 09:46:36,894 [root] INFO: package: com.kk.liushiwu.com.zz activity: com.kk.liushiwu.com.zz.mainActivity service: com.kk.liushiwu.com.zz.br\n", 
+            "2017-01-20 09:46:36,951 [root] INFO: Started auxiliary module FileCollector\n", 
+            "2017-01-20 09:46:36,953 [root] INFO: Started auxiliary module Screenshots\n", 
+            "2017-01-20 09:46:36,954 [root] INFO: Started auxiliary module TouchSimulator\n", 
+            "2017-01-20 09:46:36,955 [lib.api.adb] INFO: Installing sample in the device: /data/local/tmp/APKProtect_packer.apk\n", 
+            "2017-01-20 09:46:37,976 [lib.api.adb] INFO: Installed sample: 'Success\\n'\n", 
+            "2017-01-20 09:46:38,488 [lib.api.adb] INFO: Executed package activity: 'Starting: Intent { cmp=com.kk.liushiwu.com.zz/.mainActivity }\\n'\n", 
+            "2017-01-20 09:46:38,514 [lib.api.adb] INFO: pid found - 2654\n", 
+            "2017-01-20 09:46:39,249 [modules.auxiliary.touch_simulator] INFO: TouchSimulator - Device Admin Granted\n", 
+            "2017-01-20 09:46:41,779 [lib.api.adb] INFO: application crashed\n", 
+            "2017-01-20 09:46:41,779 [root] INFO: The analysis package requested the termination of the analysis...\n", 
+            "2017-01-20 09:46:42,788 [root] WARNING: The package \"modules.packages.apk\" finish function raised an exception: Application Crashed during Analysis\n", 
+            "2017-01-20 09:46:42,789 [root] INFO: Analysis completed\n"
+        ], 
+        "cuckoo": [
+            "2017-07-26 00:02:10,188 [lib.cuckoo.core.scheduler] INFO: Task #3: acquired machine android_x86 (label=android_x86)\n", 
+            "2017-07-26 00:02:10,203 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 22715 (interface=vboxnet0, host=192.168.56.10, pcap=/Users/guardianangel/GitHub/stageing/cuckoodroid-2.0/storage/analyses/3/dump.pcap)\n", 
+            "2017-07-26 00:02:14,226 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=android_x86, ip=192.168.56.10)\n", 
+            "2017-07-26 00:02:26,791 [lib.cuckoo.core.guest] INFO: android_x86: analysis completed successfully\n", 
+            "2017-07-26 00:02:29,914 [lib.cuckoo.core.scheduler] INFO: Task #3: reports generation completed (path=/Users/guardianangel/GitHub/stageing/cuckoodroid-2.0/storage/analyses/3)\n", 
+            "2017-07-26 00:02:29,938 [lib.cuckoo.core.scheduler] INFO: Task #3: analysis procedure completed\n"
+        ]
+    }, 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "185374120752c9ef2403ad9d74a035060b66ca863394a3f016e7f315842709f1", 
+                "dirname": ""
+            }
+        }
+    }
+}

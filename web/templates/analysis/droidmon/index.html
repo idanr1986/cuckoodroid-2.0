@@ -14,13 +14,6 @@
                 {% endif %}
 
 
-                <li>
-                    <a href="#tree_tab" data-toggle="tab">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                        Threads Tree
-                    </a>
-                </li>
-
                 {% if "commands" in analysis.droidmon %}
                 <li>
                     <a href="#commands_tab" data-toggle="tab">
@@ -196,11 +189,6 @@
             {% include "analysis/droidmon/accounts.html" %}
         </div>
         {% endif %}
-
-
-        <div class="tab-pane fade" id="tree_tab">
-            {% include "analysis/droidmon/tree.html" %}
-        </div>
 
         {% if "commands" in analysis.droidmon %}
         <div class="tab-pane fade" id="commands_tab">
