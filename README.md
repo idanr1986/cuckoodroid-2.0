@@ -2,7 +2,7 @@
 
 [![Black Hat Arsenal](https://www.toolswatch.org/badges/arsenal/2015.svg)]( https://www.blackhat.com/us-15/arsenal.html)
 [![Black Hat Arsenal](https://www.toolswatch.org/badges/arsenal/2016.svg)]( https://www.blackhat.com/us-16/arsenal.html)
-[![Black Hat Arsenal](https://github.com/toolswatch/badges/blob/master/arsenal/2017.svg)]( https://www.blackhat.com/us-17/arsenal.html)
+[![Black Hat Arsenal](https://raw.githubusercontent.com/toolswatch/badges/master/arsenal/2017.svg)]( https://www.blackhat.com/us-17/arsenal.html)
 
 CuckooDroid 2.0 - Automated Android Malware Analysis.
 =================================================
