@@ -22,48 +22,54 @@ class Droidmon(Processing):
 
         self.droidmon = {}
 
-        self.droidmon["crypto_keys"] = []
-        self.droidmon["reflection_calls"] = set()
-        self.droidmon["SystemProperties"] = set()
-        self.droidmon["started_activities"] = []
-        self.droidmon["file_accessed"] = set()
-        self.droidmon["fingerprint"] = set()
-        self.droidmon["registered_receivers"] = set()
-        self.droidmon["SharedPreferences"] = []
-        self.droidmon["ContentResolver_queries"] = set()
-        self.droidmon["ContentValues"] = []
-        self.droidmon["encoded_base64"] = []
-        self.droidmon["decoded_base64"] = []
+        self.droidmon["accounts"] = set()
+        self.droidmon["api"]= defaultdict(int)
+        self.droidmon["assets_open"] = set()
         self.droidmon["commands"] = set()
         self.droidmon["commands_output"] = set()
         self.droidmon["ComponentEnabledSetting"] = []
-        self.droidmon["data_leak"] = set()
-        self.droidmon["events"] = set()
+        self.droidmon["connected_urls"] = set()
+        self.droidmon["ContentResolver_queries"] = set()
+        self.droidmon["ContentValues"] = []
         self.droidmon["crypto_data"] = set()
-        self.droidmon["mac_data"] = []
-        self.droidmon["handleReceiver"] = []
-        self.droidmon["sms"] = []
-        self.droidmon["killed_process"] = []
-        self.droidmon["findResource"] = []
-        self.droidmon["findLibrary"] = []
-        self.droidmon["loadDex"] = set()
-        self.droidmon["TelephonyManager_listen"] = set()
-        self.droidmon["registerContentObserver"] = set()
-        self.droidmon["accounts"] = set()
+        self.droidmon["crypto_keys"] = []
+        self.droidmon["data_leak"] = set()
+        self.droidmon["decoded_base64"] = []
         self.droidmon["DexClassLoader"] = []
         self.droidmon["DexFile"] = []
-        self.droidmon["PathClassLoader"] = []
-        self.droidmon["loadClass"] = set()
-        self.droidmon["setMobileDataEnabled"] = set()
-        self.droidmon["httpConnections"] = []
-        self.droidmon["dropped_so"] = set()
         self.droidmon["dropped_dex"] = set()
+        self.droidmon["dropped_so"] = set()
+        self.droidmon["encoded_base64"] = []
         self.droidmon["error"] = []
-        self.droidmon["raw"] = []
-        self.droidmon["types"]= defaultdict(int)
-        self.droidmon["api"]= defaultdict(int)
-        self.droidmon["reflected_api"] = defaultdict(int)
+        self.droidmon["events"] = set()
+        self.droidmon["file_accessed"] = set()
+        self.droidmon["findLibrary"] = []
+        self.droidmon["findResource"] = []
+        self.droidmon["fingerprint"] = set()
+        self.droidmon["get_system_services"] = set()
+        self.droidmon["handleReceiver"] = []
+        self.droidmon["httpConnections"] = []
+        self.droidmon["killed_process"] = []
+        self.droidmon["loadClass"] = set()
+        self.droidmon["loadDex"] = set()
         self.droidmon["logs"] = []
+        self.droidmon["mac_data"] = []
+        self.droidmon["PathClassLoader"] = []
+        self.droidmon["raw"] = []
+        self.droidmon["reflected_api"] = defaultdict(int)
+        self.droidmon["reflection_calls"] = set()
+        self.droidmon["registerContentObserver"] = set()
+        self.droidmon["registered_receivers"] = set()
+        self.droidmon["sendBroadcast"] = set()
+        self.droidmon["setMobileDataEnabled"] = set()
+        self.droidmon["SharedPreferences"] = []
+        self.droidmon["sleep"] = []
+        self.droidmon["sms"] = []
+        self.droidmon["started_activities"] = set()
+        self.droidmon["started_services"] = set()
+        self.droidmon["SystemProperties"] = set()
+        self.droidmon["TelephonyManager_listen"] = set()
+        self.droidmon["types"]= defaultdict(int)
 
 
     def _handle_android_os_SystemProperties_get(self, api_call):
@@ -101,7 +107,10 @@ class Droidmon(Processing):
         self.lib_pairs(api_call, "findResource")
 
     def _handle_android_app_Activity_startActivity(self, api_call):
-        self.droidmon["started_activities"].append(api_call["args"][0])
+        if "act" in api_call["args"][0]:
+            self.droidmon["started_activities"].add(api_call["args"][0]["act"])
+        elif "cmp" in api_call["args"][0]:
+            self.droidmon["started_activities"].add(api_call["args"][0]["cmp"])
 
     def _handle_java_lang_Runtime_exec(self, api_call):
         command = api_call["args"][0]
@@ -281,8 +290,8 @@ class Droidmon(Processing):
     def _handle_dalvik_system_DexFile_loadDex(self, api_call):
         self.droidmon["loadDex"].add(api_call["args"][0])
 
-    def _handle_dalvik_system_DexClass_dalvik_system_DexClassLoader(self, api_call):
-        self.droidmon["DexClassLoader"].append(api_call["args"])
+    def _handle_dalvik_system_DexClassLoader_dalvik_system_DexClassLoader(self, api_call):
+        self.droidmon["DexClassLoader"].append(api_call["args"][0])
 
     def _handle_dalvik_system_DexFile_dalvik_system_DexFile(self, api_call):
         self.droidmon["DexFile"].append(api_call["args"])
@@ -301,6 +310,9 @@ class Droidmon(Processing):
     def _handle_android_net_ConnectivityManager_setMobileDataEnabled(self, api_call):
         self.droidmon["setMobileDataEnabled"].add(api_call["args"][0])
 
+    def _handle_java_lang_Thread_sleep(self, api_call):
+        self.droidmon["sleep"].append({"sleep":api_call["args"][0],"process_id":api_call["process_id"]})
+    
     def _handle_org_apache_http_impl_client_AbstractHttpClient_execute(self, api_call):
         json = {}
         if type(api_call["args"][0]) is dict:
@@ -349,6 +361,46 @@ class Droidmon(Processing):
     def _handle_android_util_Log_e(self, api_call):
         self.droidmon["logs"].append(api_call["args"][1])
 
+    def _handle_java_io_File_exists(self, api_call):
+        self.droidmon["file_accessed"].add(api_call["this"]["path"])
+
+    def _handle_android_app_ContextImpl_getSystemService(self, api_call):
+        self.droidmon["get_system_services"].add(api_call["args"][0])
+
+    def _handle_android_app_Activity_onCreate(self, api_call):
+        pass
+
+    def _handle_android_app_Activity_onDestroy(self, api_call):
+        pass
+
+    def _handle_android_app_Service_onCreate(self, api_call):
+        pass
+
+    def _handle_android_content_ContextWrapper_startService(self, api_call):
+        self.droidmon["started_services"].add(api_call["args"][0]["cmp"])
+
+    def _handle_android_content_ContextWrapper_startActivity(self, api_call):
+        if "act" in api_call["args"][0]:
+            self.droidmon["started_activities"].add(api_call["args"][0]["act"])
+        elif "cmp" in api_call["args"][0]:
+            self.droidmon["started_activities"].add(api_call["args"][0]["cmp"])
+
+    def _handle_android_content_ContextWrapper_sendBroadcast(self, api_call):
+        self.droidmon["sendBroadcast"].add(api_call["args"][0]["act"])
+
+    def _handle_java_net_ProxySelectorImpl_select(self, api_call):
+        self.droidmon["connected_urls"].add(api_call["args"][0])   
+    
+    def _handle_android_provider_Settings_Secure_getString(self, api_call):
+        self.droidmon["fingerprint"].add("Secure_getString")   
+
+    def _handle_android_content_res_AssetManager_open(self, api_call):
+        self.droidmon["file_accessed"].add("assets/"+api_call["args"][0])
+        self.droidmon["assets_open"].add(api_call["args"][0])
+    
+    def _handle_android_content_ContextWrapper_openFileOutput(self, api_call):
+        pass
+    
     def get_pair(self, api_call):
         value = None
         if len(api_call["args"]) > 1:
